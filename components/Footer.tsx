@@ -174,8 +174,8 @@ export default function Footer() {
                 <p>5521 DK Eersel</p>
               </li>
               <li>
-                <a href="tel:+31401234567" className="hover:text-white transition-colors">
-                  +31 40 123 4567
+                <a href="tel:+31685485534" className="hover:text-white transition-colors">
+                  +31 685 485 534
                 </a>
               </li>
               <li>

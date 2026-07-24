@@ -144,8 +144,8 @@ export default function ProeflesPage() {
               <Link href="/contact" className="inline-flex items-center justify-center bg-white text-indigo-600 font-bold px-8 py-4 rounded-xl text-lg hover:scale-[1.02] hover:shadow-xl transition-all">
                 Proefles aanvragen via contact
               </Link>
-              <a href="tel:+31401234567" className="inline-flex items-center justify-center border-2 border-white text-white font-semibold px-8 py-4 rounded-xl text-lg hover:bg-white/10 transition-all">
-                Bel: +31 40 123 4567
+              <a href="tel:+31685485534" className="inline-flex items-center justify-center border-2 border-white text-white font-semibold px-8 py-4 rounded-xl text-lg hover:bg-white/10 transition-all">
+                Bel: +31 685 485 534
               </a>
             </div>
           </AnimatedSection>

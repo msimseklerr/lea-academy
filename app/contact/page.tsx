@@ -3,6 +3,7 @@ import Link from "next/link";
 import { MapPin, Phone, Mail, Clock, MessageCircle } from "lucide-react";
 import AnimatedSection from "@/components/AnimatedSection";
 import Breadcrumb from "@/components/Breadcrumb";
+import { WHATSAPP_NUMBER } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Contact | Little Engineers Academy",
@@ -114,7 +115,7 @@ export default function ContactPage() {
 
             <div className="space-y-3">
               <a
-                href="tel:+31401234567"
+                href="tel:+31685485534"
                 className="flex items-center gap-3 bg-white border border-slate-200 rounded-xl px-5 py-4 hover:border-indigo-300 transition-colors group"
               >
                 <div className="w-10 h-10 bg-indigo-100 rounded-lg flex items-center justify-center">
@@ -122,7 +123,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="text-xs text-slate-500">Bellen</p>
-                  <p className="font-bold text-slate-900 group-hover:text-indigo-600 transition-colors">+31 40 123 4567</p>
+                  <p className="font-bold text-slate-900 group-hover:text-indigo-600 transition-colors">+31 685 485 534</p>
                 </div>
               </a>
               <a
@@ -138,7 +139,7 @@ export default function ContactPage() {
                 </div>
               </a>
               <a
-                href="https://wa.me/31401234567"
+                href={`https://wa.me/${WHATSAPP_NUMBER}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 bg-white border border-slate-200 rounded-xl px-5 py-4 hover:border-green-300 transition-colors group"

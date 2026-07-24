@@ -40,7 +40,7 @@ const organizationSchema = {
   logo: "https://littleengineersacademy.com/logo.png",
   foundingDate: "2016",
   email: "info@littleengineersacademy.com",
-  telephone: "+31401234567",
+  telephone: "+31685485534",
   sameAs: [
     "https://www.instagram.com/little_engineers_academy/",
     "https://www.youtube.com/@kucukmuhendisleratolyesi4776",

@@ -44,7 +44,8 @@
       "Bash(node *)",
       "Bash(curl -s -o /dev/null -w \"image: %{http_code}\\\\n\" http://localhost:3000/images/site/hero-home.webp)",
       "Bash(curl -s -o /dev/null -w \"server durumu: %{http_code}\\\\n\" http://localhost:3000/)",
-      "Bash(curl -s -o /dev/null -w \"server: %{http_code}\\\\n\" http://localhost:3000/)"
+      "Bash(curl -s -o /dev/null -w \"server: %{http_code}\\\\n\" http://localhost:3000/)",
+      "Bash(curl -s http://localhost:3000/contact)"
     ]
   }
 }

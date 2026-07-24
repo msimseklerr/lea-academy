@@ -36,7 +36,7 @@ const localBusinessSchema = {
   "@type": "EducationalOrganization",
   name: "Little Engineers Academy — Eersel",
   url: "https://littleengineersacademy.com/locaties/eersel",
-  telephone: "+31401234567",
+  telephone: "+31685485534",
   email: "info@littleengineersacademy.com",
   address: {
     "@type": "PostalAddress",
@@ -93,7 +93,7 @@ export default function EerselPage() {
               </div>
               <div className="flex items-center gap-3">
                 <Phone size={20} className="text-emerald-600 shrink-0" />
-                <a href="tel:+31401234567" className="text-slate-700 hover:text-emerald-600">+31 40 123 4567</a>
+                <a href="tel:+31685485534" className="text-slate-700 hover:text-emerald-600">+31 685 485 534</a>
               </div>
               <div className="flex items-center gap-3">
                 <Mail size={20} className="text-emerald-600 shrink-0" />
