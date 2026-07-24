@@ -3,6 +3,7 @@ import Link from "next/link";
 import { MapPin, Phone, Mail, Clock, MessageCircle } from "lucide-react";
 import AnimatedSection from "@/components/AnimatedSection";
 import Breadcrumb from "@/components/Breadcrumb";
+import ContactForm from "@/components/ContactForm";
 import { WHATSAPP_NUMBER } from "@/lib/constants";
 
 export const metadata: Metadata = {
@@ -36,45 +37,7 @@ export default function ContactPage() {
             <h2 className="text-2xl font-bold text-slate-900 mb-6" style={{ fontFamily: "var(--font-plus-jakarta-sans)" }}>
               Stuur ons een bericht
             </h2>
-            <form
-              action="mailto:info@littleengineersacademy.com"
-              method="get"
-              encType="text/plain"
-              className="space-y-4"
-            >
-              <div className="grid sm:grid-cols-2 gap-4">
-                <div>
-                  <label className="block text-sm font-medium text-slate-700 mb-1" htmlFor="naam">Naam</label>
-                  <input id="naam" name="naam" type="text" required className="w-full border border-slate-200 rounded-lg px-4 py-3 text-slate-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="Uw naam" />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-slate-700 mb-1" htmlFor="email">E-mailadres</label>
-                  <input id="email" name="email" type="email" required className="w-full border border-slate-200 rounded-lg px-4 py-3 text-slate-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="uw@email.nl" />
-                </div>
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-slate-700 mb-1" htmlFor="onderwerp">Onderwerp</label>
-                <select id="onderwerp" name="onderwerp" className="w-full border border-slate-200 rounded-lg px-4 py-3 text-slate-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent bg-white">
-                  <option>Gratis proefles aanvragen</option>
-                  <option>Talentanalyse informatie</option>
-                  <option>School of BSO samenwerking</option>
-                  <option>Kinderfeestje reserveren</option>
-                  <option>Vakantiekamp inschrijving</option>
-                  <option>Tarieven & inschrijving</option>
-                  <option>Anders</option>
-                </select>
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-slate-700 mb-1" htmlFor="bericht">Uw bericht</label>
-                <textarea id="bericht" name="body" rows={5} required className="w-full border border-slate-200 rounded-lg px-4 py-3 text-slate-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent resize-none" placeholder="Schrijf hier uw vraag of opmerking..." />
-              </div>
-              <button type="submit" className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold px-8 py-4 rounded-xl text-lg transition-all hover:scale-[1.01] hover:shadow-lg">
-                Bericht versturen
-              </button>
-              <p className="text-xs text-slate-400 text-center">
-                Dit opent uw e-mailprogramma. Binnen 1 werkdag ontvangt u een reactie.
-              </p>
-            </form>
+            <ContactForm />
           </AnimatedSection>
 
           {/* LOCATION CARDS */}

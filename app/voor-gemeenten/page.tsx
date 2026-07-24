@@ -5,6 +5,7 @@ import AnimatedSection from "@/components/AnimatedSection";
 import FAQAccordion from "@/components/FAQAccordion";
 import CTASection from "@/components/CTASection";
 import Breadcrumb from "@/components/Breadcrumb";
+import GemeenteContactForm from "@/components/GemeenteContactForm";
 
 export const metadata: Metadata = {
   title: "Voor Gemeenten | TalentLAB Centra & STEAM-programma's",
@@ -289,86 +290,7 @@ export default function VoorGemeentenPage() {
                 voor een eerste kennismaking.
               </p>
             </div>
-            <form
-              action="mailto:info@littleengineersacademy.com"
-              method="post"
-              encType="text/plain"
-              className="space-y-4"
-            >
-              <div className="grid sm:grid-cols-2 gap-4">
-                <div>
-                  <label className="block text-sm font-semibold text-slate-700 mb-1">
-                    Gemeente
-                  </label>
-                  <input
-                    type="text"
-                    name="gemeente"
-                    required
-                    className="w-full border border-slate-200 rounded-xl px-4 py-3 text-slate-700 focus:outline-none focus:ring-2 focus:ring-indigo-400"
-                    placeholder="Gemeente Eindhoven"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-semibold text-slate-700 mb-1">
-                    Contactpersoon
-                  </label>
-                  <input
-                    type="text"
-                    name="contactpersoon"
-                    required
-                    className="w-full border border-slate-200 rounded-xl px-4 py-3 text-slate-700 focus:outline-none focus:ring-2 focus:ring-indigo-400"
-                    placeholder="Naam"
-                  />
-                </div>
-              </div>
-              <div>
-                <label className="block text-sm font-semibold text-slate-700 mb-1">
-                  E-mail
-                </label>
-                <input
-                  type="email"
-                  name="email"
-                  required
-                  className="w-full border border-slate-200 rounded-xl px-4 py-3 text-slate-700 focus:outline-none focus:ring-2 focus:ring-indigo-400"
-                  placeholder="naam@gemeente.nl"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-semibold text-slate-700 mb-1">
-                  Onderwerp
-                </label>
-                <select
-                  name="onderwerp"
-                  className="w-full border border-slate-200 rounded-xl px-4 py-3 text-slate-700 focus:outline-none focus:ring-2 focus:ring-indigo-400"
-                >
-                  <option>TalentLAB Centrum</option>
-                  <option>Wijk-programma</option>
-                  <option>EU-project</option>
-                  <option>Anders</option>
-                </select>
-              </div>
-              <div>
-                <label className="block text-sm font-semibold text-slate-700 mb-1">
-                  Bericht
-                </label>
-                <textarea
-                  name="bericht"
-                  rows={5}
-                  className="w-full border border-slate-200 rounded-xl px-4 py-3 text-slate-700 focus:outline-none focus:ring-2 focus:ring-indigo-400"
-                  placeholder="Omschrijf kort uw wijk/doelgroep en wat u hoopt te bereiken..."
-                />
-              </div>
-              <button
-                type="submit"
-                className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-4 rounded-xl text-lg transition-all hover:shadow-lg"
-              >
-                Verstuur aanvraag
-              </button>
-              <p className="text-xs text-slate-400 text-center">
-                Wij reageren binnen 2 werkdagen. Uw gegevens worden uitsluitend
-                gebruikt voor deze aanvraag.
-              </p>
-            </form>
+            <GemeenteContactForm />
           </AnimatedSection>
         </div>
       </section>
