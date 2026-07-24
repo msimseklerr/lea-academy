@@ -1,5 +1,5 @@
-export const CALENDLY_URL_PROEFLES = "https://calendly.com/lea-academy/proefles";
-export const CALENDLY_URL_SCHOOL = "https://calendly.com/lea-academy/school-samenwerking";
+export const CALENDLY_URL_PROEFLES = "https://calendly.com/msimseklerr/30min";
+export const CALENDLY_URL_SCHOOL = "https://calendly.com/msimseklerr/30min";
 
 export const WHATSAPP_NUMBER = "31685485534";
 
