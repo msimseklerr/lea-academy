@@ -9,7 +9,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "Tarieven | Transparante Prijzen bij Little Engineers Academy",
   description:
-    "Bekijk de tarieven van Little Engineers Academy: wekelijkse cursus vanaf €89/maand, workshops vanaf €35, vakantiekampen vanaf €195 en gratis proefles & talentanalyse.",
+    "Bekijk de tarieven van Little Engineers Academy: wekelijkse cursus vanaf €75/maand, workshops vanaf €19, vakantiekampen vanaf €195 en gratis proefles & talentanalyse.",
   alternates: { canonical: "https://littleengineersacademy.com/tarieven" },
 };
 
@@ -34,7 +34,7 @@ const faqItems = [
 const programs = [
   {
     title: "Wekelijkse cursus",
-    price: "€89",
+    price: "€75",
     period: "per maand",
     description: "Doorlopende lessen, één keer per week. Inclusief alle materialen.",
     includes: ["Alle materialen & gereedschappen", "Max. 8 kinderen per groep", "Gratis talentanalyse", "Oudergesprek na elke evaluatiecyclus", "Toegang tot onze online leeromgeving"],
@@ -42,7 +42,7 @@ const programs = [
   },
   {
     title: "Workshop (losse les)",
-    price: "€35",
+    price: "€19",
     period: "per kind",
     description: "Eenmalige workshop voor een specifiek thema of vakantie-activiteit.",
     includes: ["Materialen inbegrepen", "Groepen van 8-16 kinderen", "Thematische invulling", "Ideaal als kennismaking"],
@@ -58,7 +58,7 @@ const programs = [
   },
   {
     title: "Kinderfeestje",
-    price: "€249",
+    price: "€129",
     period: "per feestje",
     description: "Bouwfeest of Codefeest voor 8-16 kinderen. Duur: 2 uur.",
     includes: ["Bouwfeest of Codefeest", "2 coaches aanwezig", "Materialen voor alle deelnemers", "Diploma voor alle kinderen"],

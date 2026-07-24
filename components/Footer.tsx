@@ -224,9 +224,8 @@ export default function Footer() {
         </div>
         <div className="border-t border-slate-800 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-slate-500">
           <p>© 2026 Little Engineers Academy. Alle rechten voorbehouden. KvK: [nummer volgt]</p>
-          <blockquote className="italic text-slate-400 text-center space-y-1">
-            <p>&ldquo;Every child deserves to swim. We find their ocean.&rdquo;</p>
-            <p>&ldquo;Elke vis verdient het om te zwemmen. Wij vinden zijn oceaan.&rdquo;</p>
+          <blockquote className="italic text-slate-400 text-center">
+            &ldquo;Elke vis verdient het om te zwemmen. Wij vinden zijn oceaan.&rdquo;
           </blockquote>
         </div>
       </div>

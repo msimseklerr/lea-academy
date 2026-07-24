@@ -16,7 +16,7 @@ const categories = [
     title: "Aanmelden & kosten",
     faqs: [
       { question: "Hoe schrijf ik mijn kind in?", answer: "Inschrijven gaat eenvoudig via ons contactformulier op de contactpagina, of door te bellen naar +31 685 485 534. Wij nemen binnen 1 werkdag contact op om de plaatsing te bespreken." },
-      { question: "Wat kost deelname aan een wekelijkse cursus?", answer: "Een wekelijkse cursus kost vanaf €89 per maand. Dit is inclusief alle materialen, begeleiding en de gratis talentanalyse. Exacte tarieven per programma staan op onze tarieven-pagina." },
+      { question: "Wat kost deelname aan een wekelijkse cursus?", answer: "Een wekelijkse cursus kost vanaf €75 per maand. Dit is inclusief alle materialen, begeleiding en de gratis talentanalyse. Exacte tarieven per programma staan op onze tarieven-pagina." },
       { question: "Is de talentanalyse echt gratis?", answer: "Ja, volledig gratis. Er zijn geen verborgen kosten. De talentanalyse is een standaard onderdeel van elk programma en ook beschikbaar voor bezoekers van een proefles." },
       { question: "Zijn er kortingen beschikbaar?", answer: "Wij werken samen met Stichting Leergeld voor gezinnen die de kosten niet kunnen dragen. Neem contact op voor de mogelijkheden. We geloven dat financiële situatie geen drempel mag zijn voor goed onderwijs." },
       { question: "Kan ik stoppen wanneer ik wil?", answer: "Ja, wij hanteren een opzegtermijn van één maand. U zit nooit vast aan een lang contract." },

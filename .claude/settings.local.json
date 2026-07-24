@@ -47,7 +47,9 @@
       "Bash(curl -s -o /dev/null -w \"server: %{http_code}\\\\n\" http://localhost:3000/)",
       "Bash(curl -s http://localhost:3000/contact)",
       "Bash(npx eslint *)",
-      "Bash(curl -s http://localhost:3000/voor-gemeenten)"
+      "Bash(curl -s http://localhost:3000/voor-gemeenten)",
+      "Bash(curl -s http://localhost:3000/tarieven)",
+      "Bash(curl -s http://localhost:3000/veelgestelde-vragen)"
     ]
   }
 }
