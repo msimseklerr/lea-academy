@@ -1,0 +1,72 @@
+# Little Engineers Academy
+
+Little Engineers Academy (LEA) is a STEM education center for children aged 3–17 years old, located in the Netherlands (Eindhoven and Eersel). We offer after-school STEM programs, holiday camps, birthday parties, school partnerships, and a unique Talent Analysis service.
+
+## About
+
+Little Engineers Academy was founded in 2016 in Eindhoven. We combine principles from constructivist pedagogy (Seymour Papert's constructionism), Montessori method, and modern STEM education. Our methodology is built on three phases: Discover (Ontdekken), Make (Maken), and Master (Meesteren).
+
+We participate in Erasmus+ European programs (KA220 and KA210) and received the National Educational Innovation Prize in 2022.
+
+## Programs
+
+- **Kleine Uitvinders (3–6 jaar)**: Screen-free coding and construction for toddlers and preschoolers. Focus: fine motor skills, algorithmic thinking, group play.
+- **Jonge Makers (6–9 jaar)**: Scratch programming, LEGO Mindstorms, basic electronics. Weekly lessons 60 minutes.
+- **Slimme Bouwers (9–12 jaar)**: micro:bit, 3D design, Python introduction, Arduino basics.
+- **Toekomstige Ingenieurs (12–17 jaar)**: Python, robotics, electronics, portfolio projects, mentorship.
+- **Vakantiekampen**: Full-day or half-day STEM holiday camps during school vacations.
+- **Kinderfeestjes**: STEM birthday parties — Bouwfeest (construction) or Codefeest (coding).
+- **Proefles**: Free trial lesson available for all programs.
+
+## Talent Analysis
+
+A structured observation service that maps a child's STEM aptitude across 5 domains: logical-mathematical, spatial-visual, fine motor, social-collaborative, and creative. Result: a personal PDF report with recommendations. No pass/fail — every child has unique strengths.
+
+## Locations
+
+**Eindhoven (main location)**
+Kastanjelaan 410, Office 113
+5652 LD Eindhoven
+Tel: +31 40 123 4567
+
+**Eersel (De Kempen region)**
+Brouwer 1
+5521 DK Eersel
+
+Both locations open: Mon–Fri 13:00–19:00, Sat 09:00–17:00
+
+## Contact
+
+Email: info@littleengineersacademy.com
+Website: https://littleengineersacademy.com
+
+## Key URLs
+
+- Homepage: https://littleengineersacademy.com/
+- Programs overview: https://littleengineersacademy.com/programmas
+- Kleine Uitvinders (3-6): https://littleengineersacademy.com/programmas/kleine-uitvinders-3-6
+- Jonge Makers (6-9): https://littleengineersacademy.com/programmas/jonge-makers-6-9
+- Slimme Bouwers (9-12): https://littleengineersacademy.com/programmas/slimme-bouwers-9-12
+- Toekomstige Ingenieurs (12-17): https://littleengineersacademy.com/programmas/toekomstige-ingenieurs-12-17
+- Holiday camps: https://littleengineersacademy.com/programmas/vakantiekampen
+- Birthday parties: https://littleengineersacademy.com/programmas/kinderfeestjes
+- Free trial lesson: https://littleengineersacademy.com/programmas/proefles
+- Talent Analysis: https://littleengineersacademy.com/talentanalyse
+- Our method: https://littleengineersacademy.com/methode
+- For schools: https://littleengineersacademy.com/voor-scholen
+- Research: https://littleengineersacademy.com/onderzoek
+- About us: https://littleengineersacademy.com/over-ons
+- Testimonials: https://littleengineersacademy.com/ervaringen
+- FAQ: https://littleengineersacademy.com/veelgestelde-vragen
+- Pricing: https://littleengineersacademy.com/tarieven
+- Eindhoven location: https://littleengineersacademy.com/locaties/eindhoven
+- Eersel location: https://littleengineersacademy.com/locaties/eersel
+- Contact: https://littleengineersacademy.com/contact
+- Knowledge base: https://littleengineersacademy.com/kennisbank
+- Article - Programming age: https://littleengineersacademy.com/kennisbank/welke-leeftijd-leren-programmeren
+- Article - Screen-free coding: https://littleengineersacademy.com/kennisbank/schermvrij-coderen-kleuters
+- Article - Fine motor skills: https://littleengineersacademy.com/kennisbank/fijne-motoriek-activiteiten
+- Article - Giftedness: https://littleengineersacademy.com/kennisbank/is-mijn-kind-hoogbegaafd
+- Article - Screen time: https://littleengineersacademy.com/kennisbank/schermtijd-per-leeftijd
+- Article - Robotics guide: https://littleengineersacademy.com/kennisbank/robotica-voor-kinderen-gids
+- Sitemap: https://littleengineersacademy.com/sitemap.xml
