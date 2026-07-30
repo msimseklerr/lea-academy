@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { BookOpen, Clock } from "lucide-react";
+import { BookOpen, Clock, MapPin, ArrowRight } from "lucide-react";
 import AnimatedSection from "@/components/AnimatedSection";
 import CTASection from "@/components/CTASection";
 import Breadcrumb from "@/components/Breadcrumb";
 import { articleList } from "@/content/kennisbank";
+import { cities, cityOrder } from "@/content/steden";
 
 export const metadata: Metadata = {
   title: "Kennisbank | STEM & Opvoeding Artikelen voor Ouders",
@@ -81,6 +82,61 @@ export default function KennisbankPage() {
                 </Link>
               </AnimatedSection>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 px-4 bg-slate-50">
+        <div className="max-w-7xl mx-auto">
+          <AnimatedSection>
+            <div className="mb-10">
+              <div className="flex items-center gap-2 mb-3">
+                <MapPin size={20} className="text-indigo-600" />
+                <p className="text-sm font-semibold uppercase tracking-widest text-indigo-600">Per stad</p>
+              </div>
+              <h2
+                className="text-3xl md:text-4xl font-bold text-slate-900 mb-3"
+                style={{ fontFamily: "var(--font-plus-jakarta-sans)" }}
+              >
+                STEM-, codeer- en roboticalessen per stad
+              </h2>
+              <p className="text-lg text-slate-600 max-w-2xl leading-relaxed">
+                Op zoek naar codeer-, robotica- of STEM-lessen in uw eigen stad? Lees onze
+                stadsgidsen voor praktische informatie en advies, specifiek voor uw regio.
+              </p>
+            </div>
+          </AnimatedSection>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {cityOrder.map((slug, i) => {
+              const city = cities[slug];
+              return (
+                <AnimatedSection key={slug} delay={(i % 6) * 0.05}>
+                  <Link
+                    href={`/steden/${slug}`}
+                    className="group block h-full bg-white rounded-2xl border border-slate-100 shadow-sm p-6 hover:border-indigo-300 hover:shadow-md transition-all"
+                  >
+                    <div className="flex items-center gap-2 mb-3">
+                      <MapPin size={16} className="text-indigo-600" />
+                      <span className="text-xs font-semibold uppercase tracking-widest text-indigo-600">
+                        {city.hasPhysicalLocation ? "Eigen locatie" : "Regio & scholen"}
+                      </span>
+                    </div>
+                    <h3
+                      className="text-lg font-bold text-slate-900 mb-2 group-hover:text-indigo-600 transition-colors"
+                      style={{ fontFamily: "var(--font-plus-jakarta-sans)" }}
+                    >
+                      {city.cityName}
+                    </h3>
+                    <p className="text-sm text-slate-600 leading-relaxed mb-4 line-clamp-3">
+                      {city.heroIntro}
+                    </p>
+                    <span className="inline-flex items-center gap-1 text-indigo-600 font-semibold text-sm">
+                      Lees de gids <ArrowRight size={14} />
+                    </span>
+                  </Link>
+                </AnimatedSection>
+              );
+            })}
           </div>
         </div>
       </section>

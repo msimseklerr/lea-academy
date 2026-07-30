@@ -60,7 +60,9 @@
       "Bash(./node_modules/.bin/tsc.cmd --noEmit --strict --skipLibCheck content/steden/cities/s-hertogenbosch.ts)",
       "Bash(curl -s http://localhost:3000/steden/eindhoven)",
       "Bash(curl -s http://localhost:3000/sitemap.xml)",
-      "Bash(curl -s http://localhost:3000/steden)"
+      "Bash(curl -s http://localhost:3000/steden)",
+      "Bash(curl -s http://localhost:3000/kennisbank)",
+      "Bash(curl -s -o /dev/null -w \"steden/eindhoven: %{http_code}\\\\n\" http://localhost:3000/steden/eindhoven)"
     ]
   }
 }

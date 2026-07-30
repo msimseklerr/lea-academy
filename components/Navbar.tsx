@@ -21,23 +21,6 @@ const navItems: NavItem[] = [
   },
   {
     type: "dropdown",
-    label: "Steden",
-    links: [
-      { href: "/steden", label: "Alle steden" },
-      { href: "/steden/eindhoven", label: "Eindhoven" },
-      { href: "/steden/eersel", label: "Eersel" },
-      { href: "/steden/amsterdam", label: "Amsterdam" },
-      { href: "/steden/rotterdam", label: "Rotterdam" },
-      { href: "/steden/den-haag", label: "Den Haag" },
-      { href: "/steden/utrecht", label: "Utrecht" },
-      { href: "/steden/tilburg", label: "Tilburg" },
-      { href: "/steden/breda", label: "Breda" },
-      { href: "/steden/helmond", label: "Helmond" },
-      { href: "/steden/s-hertogenbosch", label: "'s-Hertogenbosch" },
-    ],
-  },
-  {
-    type: "dropdown",
     label: "Voor organisaties",
     links: [
       { href: "/voor-scholen", label: "Voor scholen" },
