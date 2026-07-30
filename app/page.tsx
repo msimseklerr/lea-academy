@@ -23,13 +23,13 @@ export const metadata: Metadata = {
   title:
     "Little Engineers Academy | STEM, Robotica & Coderen voor Kinderen",
   description:
-    "Little Engineers Academy in Eindhoven en Eersel: 200+ engineering-workshops voor kinderen van 3-17 jaar. Robotica, coderen en een wetenschappelijke talentanalyse op 64 parameters. 10.000+ afgestudeerden.",
+    "Little Engineers Academy in Eindhoven en Eersel: 200+ engineering-workshops voor kinderen van 3-17 jaar. Robotica, coderen en een wetenschappelijke talentanalyse op 70 parameters. 10.000+ afgestudeerden.",
   alternates: { canonical: "https://littleengineersacademy.com" },
   openGraph: {
     title:
       "Little Engineers Academy | STEM, Robotica & Coderen voor Kinderen",
     description:
-      "200+ engineering-workshops voor kinderen van 3-17 jaar in Eindhoven en Eersel. Wetenschappelijke talentanalyse op 64 parameters.",
+      "200+ engineering-workshops voor kinderen van 3-17 jaar in Eindhoven en Eersel. Wetenschappelijke talentanalyse op 70 parameters.",
     url: "https://littleengineersacademy.com",
   },
 };
@@ -52,7 +52,7 @@ const faqItems = [
     question:
       "Wat maakt Little Engineers Academy anders dan andere STEM-aanbieders?",
     answer:
-      "Wij combineren 200+ originele engineering-workshops met een wetenschappelijke talentanalyse op 64 parameters. We vragen niet hoe slim je kind is — wij ontdekken hóé je kind slim is. Elke les is hands-on, 80% schermvrij, in kleine groepen van maximaal 8 kinderen.",
+      "Wij combineren 200+ originele engineering-workshops met een wetenschappelijke talentanalyse op 70 parameters. We vragen niet hoe slim je kind is — wij ontdekken hóé je kind slim is. Elke les is hands-on, 80% schermvrij, in kleine groepen van maximaal 8 kinderen.",
   },
   {
     question: "Is er een proefles mogelijk voordat ik me inschrijf?",
@@ -135,7 +135,7 @@ export default function HomePage() {
               <p className="text-lg md:text-xl text-slate-600 leading-relaxed mb-6 max-w-lg">
                 Vanuit Brainport Eindhoven biedt LEA voor kinderen van 3 tot 17
                 jaar 200+ originele engineering-workshops — 80% schermvrij — en
-                een wetenschappelijke talentanalyse op basis van 64 parameters.
+                een wetenschappelijke talentanalyse op basis van 70 parameters.
               </p>
               <p className="text-xl md:text-2xl font-bold italic text-indigo-600 mb-8 max-w-lg">
                 &ldquo;Elk kind is ergens een genie. Wij ontdekken waar.&rdquo;
@@ -465,7 +465,7 @@ export default function HomePage() {
             </blockquote>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto mb-8">
               Elke deelnemer krijgt na een workshop een gedetailleerd
-              talentprofiel op 64 parameters: van probleemoplossing en
+              talentprofiel op 70 parameters: van probleemoplossing en
               creativiteit tot motoriek en doorzettingsvermogen — volledig gratis
               en zonder test die je kind kan falen.
             </p>

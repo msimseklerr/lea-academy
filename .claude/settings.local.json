@@ -49,7 +49,18 @@
       "Bash(npx eslint *)",
       "Bash(curl -s http://localhost:3000/voor-gemeenten)",
       "Bash(curl -s http://localhost:3000/tarieven)",
-      "Bash(curl -s http://localhost:3000/veelgestelde-vragen)"
+      "Bash(curl -s http://localhost:3000/veelgestelde-vragen)",
+      "Bash(curl -s -o /dev/null -w \"talentanalyse: %{http_code}\\\\n\" http://localhost:3000/talentanalyse)",
+      "Bash(curl -s http://localhost:3000/talentanalyse)",
+      "Bash(curl -s http://localhost:3000/eu-projecten)",
+      "Bash(curl -s http://localhost:3000/sociale-impact)",
+      "Bash(python3 -)",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(node_modules/.bin/tsc --noEmit --strict --target es2020 --module esnext --moduleResolution bundler content/steden/cities/tilburg.ts)",
+      "Bash(./node_modules/.bin/tsc.cmd --noEmit --strict --skipLibCheck content/steden/cities/s-hertogenbosch.ts)",
+      "Bash(curl -s http://localhost:3000/steden/eindhoven)",
+      "Bash(curl -s http://localhost:3000/sitemap.xml)",
+      "Bash(curl -s http://localhost:3000/steden)"
     ]
   }
 }

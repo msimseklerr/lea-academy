@@ -133,7 +133,7 @@ export default function VoorGemeentenPage() {
                 <p className="text-slate-600 leading-relaxed mb-4">
                   LEA levert het complete pakket: de methodologie, alle
                   materialen en gereedschappen, getrainde coaches, het
-                  TalentLAB-analysemodel met 64 parameters, en de rapportage voor
+                  TalentLAB-analysemodel met 70 parameters, en de rapportage voor
                   ouders en eventueel school. De gemeente levert de locatie en
                   zorgt voor bekendheid in de wijk.
                 </p>

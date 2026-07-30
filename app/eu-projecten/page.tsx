@@ -276,7 +276,7 @@ export default function EuProjectenPage() {
             <p className="text-slate-600 leading-relaxed mb-4">
               Wij orienteren ons actief op Horizon Europe voor
               onderzoekssamenwerkingen rond hersenontwikkeling en AI-ondersteunde
-              talentmeting. Onze datastrategie — 300.000+ datapunten over 64
+              talentmeting. Onze datastrategie — 300.000+ datapunten over 70
               parameters in 12+ landen — biedt een uniek fundament voor
               grootschalige longitudinale studies.
             </p>

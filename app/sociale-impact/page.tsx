@@ -121,7 +121,7 @@ export default function SocialeImpactPage() {
               leeftijdsgroepen.
             </p>
             <p className="text-slate-600 leading-relaxed">
-              Ons TalentLAB meet op 64 parameters. Juist voor neurodiverse
+              Ons TalentLAB meet op 70 parameters. Juist voor neurodiverse
               kinderen levert dit waardevolle inzichten op die een standaard
               IQ- of schooltoets niet geeft: hoe gaat het kind om met frustratie?
               Hoe snel herstelt het? Hoe creatief is het bij open opdrachten?
@@ -231,7 +231,7 @@ export default function SocialeImpactPage() {
             {[
               {
                 title: "Cultureel neutrale meting",
-                desc: "Onze 64 parameters zijn zo ontworpen dat ze niet cultureel gebonden zijn. We meten gedrag in context, niet taalvaardigheid of culturele normen. Dit maakt de analyse valide over de gehele wereld.",
+                desc: "Onze 70 parameters zijn zo ontworpen dat ze niet cultureel gebonden zijn. We meten gedrag in context, niet taalvaardigheid of culturele normen. Dit maakt de analyse valide over de gehele wereld.",
               },
               {
                 title: "Lokale aanpassing",

@@ -51,16 +51,31 @@ export default async function KennisbankArticlePage({
     );
   }
 
+  const articleUrl = `https://littleengineersacademy.com/kennisbank/${slug}`;
+
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: article.title,
     description: article.description,
     image: article.image,
-    author: { "@type": "Organization", name: "Little Engineers Academy" },
-    publisher: { "@type": "Organization", name: "Little Engineers Academy" },
+    author: {
+      "@type": "Organization",
+      name: "Little Engineers Academy",
+      url: "https://littleengineersacademy.com",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Little Engineers Academy",
+      url: "https://littleengineersacademy.com",
+    },
     datePublished: "2026-07-01",
     dateModified: "2026-07-15",
+    mainEntityOfPage: { "@type": "WebPage", "@id": articleUrl },
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "blockquote"],
+    },
   };
 
   const faqSchema = {
@@ -89,9 +104,12 @@ export default async function KennisbankArticlePage({
           <h1 className="text-3xl md:text-5xl font-extrabold text-slate-900 tracking-tight mb-6" style={{ fontFamily: "var(--font-plus-jakarta-sans)" }}>
             {article.title}
           </h1>
-          <p className="text-lg text-slate-600 leading-relaxed mb-8 border-l-4 border-indigo-600 pl-4">
+          <blockquote
+            cite="https://littleengineersacademy.com"
+            className="text-lg text-slate-600 leading-relaxed mb-8 border-l-4 border-indigo-600 pl-4 not-italic"
+          >
             {article.intro}
-          </p>
+          </blockquote>
         </AnimatedSection>
 
         <AnimatedSection delay={0.1}>

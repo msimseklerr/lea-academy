@@ -1,0 +1,140 @@
+# Little Engineers Academy — Volledige Kennisbank Index
+
+> Uitgebreide versie van llms.txt met alle kennisbank-artikelen: titel, directe samenvatting en URL.
+
+## Kennisbank Artikelen
+
+### 10 vragen die je moet stellen voordat je een cursus kiest
+De beste manier om een goede van een middelmatige cursus te onderscheiden, is niet de prijs vergelijken maar tien gerichte vragen stellen over groepsgrootte, coach-kwalificatie, leerlijn en communicatie. Aanbieders die deze vragen moeiteloos en concreet kunnen beantwoorden, geven doorgaans ook de beste begeleiding.
+Lees meer: https://littleengineersacademy.com/kennisbank/10-vragen-cursus-kiezen
+
+### 21e-eeuwse vaardigheden: wat moet mijn kind écht leren?
+21e-eeuwse vaardigheden zijn geen vage onderwijstrend maar een concrete set van acht vaardigheden — waaronder probleemoplossend denken, samenwerken, creativiteit en digitale geletterdheid — die kinderen nodig hebben in een arbeidsmarkt die sneller verandert dan het curriculum kan bijbenen. Ze vervangen geen basisvakken als taal en rekenen, maar bepalen in toenemende mate of een kind kennis ook daadwerkelijk kan toepassen in nieuwe, onvoorspelbare situaties.
+Lees meer: https://littleengineersacademy.com/kennisbank/21e-eeuwse-vaardigheden
+
+### AI en kinderen: hoe leg je ChatGPT uit aan een 8-jarige?
+Leg ChatGPT aan een 8-jarige uit als een supersnelle napraat-machine die miljoenen teksten heeft gelezen en daardoor goed kan raden welk woord logisch volgt op het vorige — niet als een denkend wezen dat echt begrijpt of weet wat waar is. Die ene vergelijking, gecombineerd met concrete voorbeelden van fouten die de AI kan maken, geeft kinderen vanaf 7-8 jaar een werkbaar mentaal model waarmee ze AI kunnen gebruiken zonder alles wat het zegt als waarheid te beschouwen.
+Lees meer: https://littleengineersacademy.com/kennisbank/ai-en-kinderen-chatgpt
+
+### Buitenspelen en hersenontwikkeling: waarom risicovol spel slim maakt
+Risicovol buitenspelen - klimmen, balanceren, rennen op ongelijke ondergrond, af en toe een schaafwond oplopen - is geen overbodige luxe maar een fundamentele bouwsteen voor hersenontwikkeling: het traint motoriek, ruimtelijk inzicht, risico-inschatting en emotieregulatie op manieren die binnenspelen niet kan evenaren. Onderzoek toont dat kinderen die minder risicovol mogen spelen, structureel meer angststoornissen en minder zelfvertrouwen ontwikkelen dan kinderen die wél mogen klimmen, vallen en weer opstaan.
+Lees meer: https://littleengineersacademy.com/kennisbank/buitenspelen-hersenontwikkeling
+
+### Consumeren vs creëren: de enige schermtijd-vraag die ertoe doet
+De belangrijkste schermtijd-vraag is niet 'hoeveel minuten', maar 'is mijn kind aan het consumeren of aan het creëren'. Een kind dat een spel bouwt in Scratch, een filmpje monteert of een robot programmeert, is fundamenteel anders bezig dan een kind dat korte video's scrolt of passief content bekijkt, ook al staat de klok op hetzelfde aantal minuten.
+Lees meer: https://littleengineersacademy.com/kennisbank/consumeren-vs-creeren-schermtijd
+
+### Fijne motoriek ontwikkelen: van bouwblokken tot schroevendraaier
+Fijne motoriek is het vermogen om kleine, precieze bewegingen te maken met vingers en handen, zoals knippen, rijgen, schroeven of typen. Deze vaardigheid ontwikkelt zich in duidelijke stappen: van grove grijpbewegingen bij peuters, via bouwblokken en kralen bij kleuters, tot het hanteren van echt gereedschap zoals een schroevendraaier vanaf ongeveer 8 jaar.
+Lees meer: https://littleengineersacademy.com/kennisbank/fijne-motoriek-activiteiten
+
+### Gamen en leren: wanneer is het gezond, wanneer niet?
+Gamen is gezond wanneer het probleemoplossend vermogen, samenwerking of ruimtelijk inzicht traint, in een vaste tijdsstructuur past en niet ten koste gaat van slaap, beweging of sociaal contact. Het wordt problematisch wanneer een kind niet meer zelf kan stoppen, prikkelbaar wordt bij het uitzetten, andere activiteiten structureel laat vallen, of gamet om onprettige gevoelens te ontlopen.
+Lees meer: https://littleengineersacademy.com/kennisbank/gamen-en-leren
+
+### Growth mindset bij kinderen: hoe bouw je doorzettingsvermogen op
+Een growth mindset bij kinderen bouw je op door consequent te reageren op inspanning en strategie in plaats van op talent of resultaat, en door kinderen structureel te laten oefenen met taken die net te moeilijk zijn. Doorzettingsvermogen ontstaat niet door aanmoediging alleen, maar door herhaalde ervaring dat vastlopen, opnieuw proberen en bijstellen daadwerkelijk tot vooruitgang leidt.
+Lees meer: https://littleengineersacademy.com/kennisbank/growth-mindset-kinderen
+
+### Hersenontwikkeling 0-6 jaar: wat elke ouder moet weten
+Tussen 0 en 6 jaar legt het brein van een kind de basis voor vrijwel alle latere vaardigheden: taal, motoriek, emotieregulatie en probleemoplossend denken. In deze periode worden per seconde meer dan een miljoen nieuwe verbindingen tussen hersencellen gevormd, gestuurd door herhaalde, betekenisvolle ervaringen.
+Lees meer: https://littleengineersacademy.com/kennisbank/hersenontwikkeling-0-6-jaar
+
+### Is mijn kind hoogbegaafd? Signalen per leeftijd
+Vroege signalen van hoogbegaafdheid zijn niet alleen 'snel leren', maar vooral een combinatie van een ongewoon groot waarom-vragen-patroon, een sterk rechtvaardigheidsgevoel, en asynchrone ontwikkeling: intellectueel ver vooruit, maar sociaal-emotioneel gewoon op leeftijd. Signalen verschillen sterk per leeftijdsfase en worden vaak verward met ADHD, verveling of 'gewoon een pittig kind'.
+Lees meer: https://littleengineersacademy.com/kennisbank/is-mijn-kind-hoogbegaafd
+
+### De acht intelligenties van Gardner met voorbeeldactiviteiten
+Volgens de theorie van meervoudige intelligentie van psycholoog Howard Gardner bestaat 'slimheid' niet als één meetbaar getal, maar uit minstens acht relatief onafhankelijke vermogens: taalkundig, logisch-wiskundig, ruimtelijk, muzikaal, lichamelijk-kinesthetisch, interpersoonlijk, intrapersoonlijk en naturalistisch. Een kind kan sterk zijn in ruimtelijk inzicht en zwak in taal, of andersom, zonder dat één van beide 'minder slim' betekent.
+Lees meer: https://littleengineersacademy.com/kennisbank/meervoudige-intelligentie
+
+### Meisjes en techniek: hoe stimuleer je interesse in STEM?
+Meisjes zijn van nature niet minder geïnteresseerd in techniek dan jongens, maar verliezen die interesse vaak tussen hun 8e en 13e levensjaar door een combinatie van stereotype beeldvorming, gebrek aan zichtbare rolmodellen en minder speelse, vroege blootstelling aan bouwen, programmeren en experimenteren. De sleutel is niet 'meisjes anders benaderen', maar wél: vroeg beginnen, stereotypen actief tegenspreken en meisjes laten ervaren dat techniek net zo goed bij hen past als bij jongens.
+Lees meer: https://littleengineersacademy.com/kennisbank/meisjes-en-techniek-stem
+
+### micro:bit en Arduino voor kinderen: waar begin je?
+Begin met micro:bit vanaf ongeveer 9 jaar: het bordje is kant-en-klaar, heeft ingebouwde sensoren en ledjes, en wordt via blokjes geprogrammeerd. Arduino past beter vanaf 12-13 jaar, omdat het meer techniekkennis vraagt — draden, weerstanden, een echte programmeertaal — maar ook veel flexibeler en uitgebreider is.
+Lees meer: https://littleengineersacademy.com/kennisbank/microbit-arduino-kinderen
+
+### Motivatie bij kinderen: waarom belonen vaak averechts werkt
+Beloningen zoals stickers, snoep of geld voor goede cijfers lijken op korte termijn te werken, maar onderzoek naar het zogeheten overjustification-effect laat zien dat ze de intrinsieke motivatie van een kind op de lange termijn juist kunnen ondermijnen. Zodra een kind een activiteit gaat koppelen aan een externe beloning, verdwijnt vaak het plezier in de taak zelf zodra de beloning wegvalt.
+Lees meer: https://littleengineersacademy.com/kennisbank/motivatie-kinderen-belonen
+
+### Naschoolse activiteiten kiezen: STEM, sport of muziek?
+Er is geen universeel beste naschoolse activiteit: sport, muziek en STEM ontwikkelen elk andere vaardigheden, en de juiste keuze hangt af van wat uw kind al op school en thuis meekrijgt, wat het karakter van uw kind nodig heeft, en hoeveel activiteiten in de week nog passen. De vuistregel is complementariteit: kies wat ontbreekt in het huidige ritme van uw kind, niet wat het populairst is in de klas.
+Lees meer: https://littleengineersacademy.com/kennisbank/naschoolse-activiteiten-kiezen
+
+### Neurodiversiteit en talent: ADHD en autisme als kracht, niet beperking
+Neurodiversiteit is het idee dat variaties in het brein, zoals ADHD en autisme, natuurlijke vormen van menselijke diversiteit zijn met eigen sterktes, niet uitsluitend tekorten die gecorrigeerd moeten worden. Kinderen met ADHD tonen vaak hyperfocus, creativiteit en energie; kinderen met autisme vaak patroonherkenning, diepe concentratie en eerlijkheid.
+Lees meer: https://littleengineersacademy.com/kennisbank/neurodiversiteit-adhd-autisme-talent
+
+### Van speelgoed naar prototype: wat leert reverse engineering kinderen
+Reverse engineering — iets bestaands uit elkaar halen om te ontdekken hoe het werkt — is een van de krachtigste, meest onderschatte manieren waarop kinderen technisch inzicht opbouwen. Door een oud speelgoedvoertuig, een kapotte wekker of een afgedankt apparaat te analyseren, leren kinderen onderdelen herkennen, verbanden leggen tussen vorm en functie, en het verschil zien tussen analyseren en zelf ontwerpen.
+Lees meer: https://littleengineersacademy.com/kennisbank/reverse-engineering-kinderen
+
+### Robotica voor kinderen: de complete gids
+Robotica voor kinderen combineert programmeren, techniek en ontwerp in één tastbaar project: van eenvoudige vloerrobots voor kleuters tot zelfgebouwde, sensorgestuurde robots voor tieners. Het bouwt logisch voort op fijne motoriek, ruimtelijk inzicht en algoritmisch denken, en is een van de krachtigste manieren om abstracte STEM-concepten concreet en zichtbaar te maken.
+Lees meer: https://littleengineersacademy.com/kennisbank/robotica-voor-kinderen-gids
+
+### Ruimtelijk inzicht bij kinderen: de onderschatte vaardigheid achter wiskunde
+Ruimtelijk inzicht — het vermogen om objecten, afstanden en verhoudingen in de ruimte mentaal voor te stellen en te manipuleren — is een van de sterkste voorspellers van latere wiskunde- en STEM-prestaties, sterker zelfs dan vroege rekenvaardigheid. Toch krijgt het op school nauwelijks aandacht, omdat het niet als apart vak wordt getoetst.
+Lees meer: https://littleengineersacademy.com/kennisbank/ruimtelijk-inzicht-kinderen
+
+### Schermtijd per leeftijd: een realistische richtlijn
+Een realistische schermtijdrichtlijn is: onder de 2 jaar vrijwel geen scherm, 2 tot 5 jaar maximaal 1 uur per dag, 6 tot 12 jaar 1 tot 2 uur op schooldagen met meer ruimte in het weekend, en bij tieners telt de aard van het schermgebruik zwaarder dan het aantal minuten. Vaste richtlijnen zijn een startpunt, geen wet van Meden en Perzen — context, gezinsritme en het soort schermgebruik bepalen uiteindelijk of een hoeveelheid gezond is.
+Lees meer: https://littleengineersacademy.com/kennisbank/schermtijd-per-leeftijd
+
+### Schermvrij coderen: unplugged activiteiten voor kleuters
+Schermvrij coderen, ook wel unplugged coding genoemd, betekent dat kleuters programmeerconcepten zoals sequentie, lussen en foutopsporing leren via beweging, spel en tastbare materialen, zonder tablet of computer. Voor kinderen van 3 tot 6 jaar is dit de meest effectieve manier om algoritmisch denken op te bouwen, omdat hun fijne motoriek en leesvaardigheid nog niet klaar zijn voor digitale programmeertools, terwijl hun denkvermogen dat wel al aankan.
+Lees meer: https://littleengineersacademy.com/kennisbank/schermvrij-coderen-kleuters
+
+### Schoolrijpheid checklist: is mijn kind klaar voor groep 3?
+Schoolrijpheid is geen vaste kalenderleeftijd maar een combinatie van sociaal-emotionele, taal-, motorische en cognitieve signalen die samen bepalen of een kind klaar is voor het meer klassikale, taakgerichte leren in groep 3. Belangrijker dan losse vaardigheden zoals letters kennen, is of een kind zelfstandig kan werken, een instructie kan volgen en met tegenslag kan omgaan.
+Lees meer: https://littleengineersacademy.com/kennisbank/schoolrijpheid-checklist
+
+### STEM-cadeaus per leeftijd: een koopgids voor ouders
+Het beste STEM-cadeau is niet per se het duurste of nieuwste, maar het cadeau dat aansluit bij de ontwikkelingsfase van uw kind en genoeg open speelruimte biedt om zelf te ontdekken. Voor kleuters van 3-6 jaar betekent dit tastbare bouwmaterialen, voor kinderen van 6-9 jaar eenvoudige robotica en constructiesets, voor 9- tot 12-jarigen micro:bit en 3D-ontwerp, en voor tieners geavanceerdere elektronica en programmeerprojecten.
+Lees meer: https://littleengineersacademy.com/kennisbank/stem-cadeaus-per-leeftijd
+
+### Van hobby naar carrière: techniekberoepen uitgelegd aan kinderen
+Kinderen kennen meestal maar een handjevol techniekberoepen - ingenieur, programmeur - terwijl er honderden bestaan, van biomedisch technicus tot game-ontwerper. Een hobby als bouwen, programmeren of robotica wordt pas een zichtbaar carrièrepad wanneer kinderen concrete voorbeelden krijgen van wat mensen in die beroepen daadwerkelijk dagelijks doen, in taal en context die aansluit bij hun leeftijd en belevingswereld.
+Lees meer: https://littleengineersacademy.com/kennisbank/van-hobby-naar-carriere-techniek
+
+### Van Scratch naar Python: de programmeerladder per leeftijd
+De weg van Scratch naar Python is geen sprong maar een ladder met meerdere tredes: Scratch, hybride blokjes-en-code-tools zoals MakeCode, en pas daarna volledige tekstcode. Kinderen die een trede overslaan — bijvoorbeeld rechtstreeks van Scratch naar Python — lopen vaak vast op syntax in plaats van op logica.
+Lees meer: https://littleengineersacademy.com/kennisbank/van-scratch-naar-python
+
+### Wat is executieve functie en waarom is het belangrijker dan IQ?
+Executieve functies zijn de mentale vaardigheden waarmee een kind plant, focust, impulsen beheerst en flexibel omschakelt tussen taken - kortweg het 'management van het brein'. Longitudinaal onderzoek, waaronder de bekende Dunedin-studie, laat zien dat deze vaardigheden op vierjarige leeftijd schoolprestaties, gezondheid en zelfs inkomen op volwassen leeftijd beter voorspellen dan IQ, en dat ze - in tegenstelling tot IQ - actief trainbaar zijn.
+Lees meer: https://littleengineersacademy.com/kennisbank/wat-is-executieve-functie
+
+### Wat is STEM/STEAM onderwijs en waarom is het belangrijk?
+STEM staat voor Science, Technology, Engineering en Mathematics: onderwijs dat deze vakgebieden niet los, maar geïntegreerd en projectmatig aanbiedt, met de nadruk op zelf onderzoeken, bouwen en oplossen in plaats van uit een boek leren. STEAM voegt daar Arts (creativiteit en ontwerp) aan toe.
+Lees meer: https://littleengineersacademy.com/kennisbank/wat-is-stem-onderwijs
+
+### Wat kost een STEM-cursus voor kinderen? Een eerlijk overzicht
+De kosten van een STEM-cursus voor kinderen in Nederland lopen uiteen van gratis (een proefles of open dag) tot 40-90 euro per maand voor een wekelijkse cursus met materiaal, en 150-350 euro voor een vakantiekamp van een week. De prijs zegt echter minder over de kwaliteit dan de meeste ouders denken: groepsgrootte, coach-kwalificatie en of materiaal is inbegrepen, bepalen de waarde veel sterker dan het bedrag zelf.
+Lees meer: https://littleengineersacademy.com/kennisbank/wat-kost-stem-cursus
+
+### Welke banen bestaan over 15 jaar nog?
+Niemand kan exact voorspellen welke functietitels er over 15 jaar nog bestaan, maar onderzoek van onder meer het World Economic Forum en de OESO toont een consistent patroon: routinematige, voorspelbare taken verdwijnen het eerst door automatisering en AI, terwijl beroepen die probleemoplossend vermogen, technische vaardigheid, creativiteit en menselijk contact combineren juist blijven groeien. Niet het beroep, maar de onderliggende vaardigheden van uw kind bepalen straks de kansen.
+Lees meer: https://littleengineersacademy.com/kennisbank/welke-banen-bestaan-nog
+
+### Op welke leeftijd kan een kind leren programmeren?
+Er is geen minimumleeftijd om te beginnen met programmeren leren: al vanaf 3 jaar kunnen kleuters algoritmisch denken oefenen, zonder scherm. Vanaf 6 jaar volgt visueel programmeren met Scratch, vanaf 9-10 jaar micro:bit en robotica, en vanaf 12 jaar tekstgebaseerde talen zoals Python.
+Lees meer: https://littleengineersacademy.com/kennisbank/welke-leeftijd-leren-programmeren
+
+
+## Steden / Locaties
+Little Engineers Academy biedt STEM-, codeer- en roboticalessen voor kinderen in en rond de volgende steden:
+- Eindhoven: https://littleengineersacademy.com/steden/eindhoven
+- Eersel: https://littleengineersacademy.com/steden/eersel
+- Amsterdam: https://littleengineersacademy.com/steden/amsterdam
+- Rotterdam: https://littleengineersacademy.com/steden/rotterdam
+- Den Haag: https://littleengineersacademy.com/steden/den-haag
+- Utrecht: https://littleengineersacademy.com/steden/utrecht
+- Tilburg: https://littleengineersacademy.com/steden/tilburg
+- Breda: https://littleengineersacademy.com/steden/breda
+- Helmond: https://littleengineersacademy.com/steden/helmond
+- 's-Hertogenbosch: https://littleengineersacademy.com/steden/s-hertogenbosch
+- Alle steden: https://littleengineersacademy.com/steden

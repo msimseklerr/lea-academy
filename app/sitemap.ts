@@ -32,7 +32,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/eu-projecten`, priority: 0.7, changeFrequency: "monthly" as const },
     { url: `${base}/galerij`, priority: 0.7, changeFrequency: "monthly" as const },
     { url: `${base}/hoe-maak-je-het`, priority: 0.7, changeFrequency: "monthly" as const },
+    { url: `${base}/steden`, priority: 0.8, changeFrequency: "monthly" as const },
   ];
+
+  const cities = [
+    "eindhoven",
+    "eersel",
+    "amsterdam",
+    "rotterdam",
+    "den-haag",
+    "utrecht",
+    "tilburg",
+    "breda",
+    "helmond",
+    "s-hertogenbosch",
+  ];
+
+  const city_pages = cities.map((slug) => ({
+    url: `${base}/steden/${slug}`,
+    priority: 0.8,
+    changeFrequency: "monthly" as const,
+  }));
 
   const articles = [
     "welke-leeftijd-leren-programmeren",
@@ -73,7 +93,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "monthly" as const,
   }));
 
-  return [...static_pages, ...article_pages].map((p) => ({
+  return [...static_pages, ...article_pages, ...city_pages].map((p) => ({
     ...p,
     lastModified: now,
   }));

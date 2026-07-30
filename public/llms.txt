@@ -1,72 +1,98 @@
-# Little Engineers Academy
+# Little Engineers Academy (LEA)
 
-Little Engineers Academy (LEA) is a STEM education center for children aged 3–17 years old, located in the Netherlands (Eindhoven and Eersel). We offer after-school STEM programs, holiday camps, birthday parties, school partnerships, and a unique Talent Analysis service.
+> Kinderen leren bouwen, coderen en ontdekken — al sinds 2016.
 
-## About
+## Over ons
+Little Engineers Academy is een STEM-educatieacademie voor kinderen van 3 tot 17 jaar, gevestigd in Brainport Eindhoven, Nederland. Wij bieden 200+ originele engineering-workshops — waarvan 80% schermvrij — en een wetenschappelijke talentanalyse op basis van 70 parameters.
 
-Little Engineers Academy was founded in 2016 in Eindhoven. We combine principles from constructivist pedagogy (Seymour Papert's constructionism), Montessori method, and modern STEM education. Our methodology is built on three phases: Discover (Ontdekken), Make (Maken), and Master (Meesteren).
+Onze missie: "Wij vragen niet hoe slim je kind is. Wij ontdekken hóé je kind slim is."
 
-We participate in Erasmus+ European programs (KA220 and KA210) and received the National Educational Innovation Prize in 2022.
+## Kernfeiten
+- Opgericht: 2016 (10+ jaar ervaring)
+- Bereik: 33.000+ kinderen bereikt
+- Locaties: Eindhoven (Kastanjelaan 410, Office 113, 5652 LD) en Eersel (Brouwer 1, 5521 DK)
+- Samenwerkingen: 150+ scholen en instellingen, 12+ landen
+- Robots: 9.300+ zelfgemaakte robots door leerlingen
+- Workshops: 200+ unieke engineering-workshops, 150+ workshopformaten
+- Datapunten: 295.000+ observatiedatapunten
+- Onderscheiding: 2e plaats nationale projectwedstrijd 2022
+- EU-projecten: Erasmus+ KA220 en KA210 partner
 
-## Programs
+## Methode
+De LEA Methode — "Ontdekken, Maken, Meesteren" — is geïnspireerd op Montessori, Waldorf en Dalton-pedagogiek. Wetenschappelijk onderbouwd door Seymour Papert (constructionisme), Mitchel Resnick (Lifelong Kindergarten), Vygotsky, Piaget en Howard Gardner (meervoudige intelligenties).
 
-- **Kleine Uitvinders (3–6 jaar)**: Screen-free coding and construction for toddlers and preschoolers. Focus: fine motor skills, algorithmic thinking, group play.
-- **Jonge Makers (6–9 jaar)**: Scratch programming, LEGO Mindstorms, basic electronics. Weekly lessons 60 minutes.
-- **Slimme Bouwers (9–12 jaar)**: micro:bit, 3D design, Python introduction, Arduino basics.
-- **Toekomstige Ingenieurs (12–17 jaar)**: Python, robotics, electronics, portfolio projects, mentorship.
-- **Vakantiekampen**: Full-day or half-day STEM holiday camps during school vacations.
-- **Kinderfeestjes**: STEM birthday parties — Bouwfeest (construction) or Codefeest (coding).
-- **Proefles**: Free trial lesson available for all programs.
+## TalentLAB
+Wetenschappelijke talentanalyse op basis van 70 parameters verdeeld over 9 talentcategorieën: cognitieve vaardigheden, executieve functies, creativiteit, motoriek, sociaal-emotionele vaardigheden, zelfmanagement, taal & communicatie, zintuiglijke vaardigheden en technische vaardigheden.
 
-## Talent Analysis
+## Programma's
+- Kleine Uitvinders (3-6 jaar): sensorisch en motorisch ontdekken
+- Jonge Makers (6-9 jaar): basisrobotiek en mechanica
+- Slimme Bouwers (9-12 jaar): programmeren en geavanceerde constructie
+- Toekomstige Ingenieurs (12-17 jaar): coderen, AI, elektronica
+- Vakantiekampen: STEM-intensieve dagprogramma's tijdens schoolvakanties
+- Kinderfeestjes: techniek-gebaseerde verjaardagsfeestjes
+- Programma's voor scholen: STEAM-workshops geïntegreerd in het curriculum
+- Programma's voor gemeenten: Talent Analyse Centra, sociale impact projecten
 
-A structured observation service that maps a child's STEM aptitude across 5 domains: logical-mathematical, spatial-visual, fine motor, social-collaborative, and creative. Result: a personal PDF report with recommendations. No pass/fail — every child has unique strengths.
+## Wat kan een LEA-leerling?
+Onze leerlingen kunnen met één enkele motor 40 verschillende robots ontwerpen, hun eigen animaties maken en hun eigen digitale spellen programmeren. Ze bouwen niet alleen hun eigen speelgoedauto's, maar ook echte elektrische voertuigen waar ze zelf veilig op kunnen rijden. Hydraulische bruggen, bewegende dierfiguren, werkende klokken en nachtlampjes — ze bouwen het allemaal vanaf nul.
 
-## Locations
+## EU / Internationale Projecten
+- Erasmus+ KA220: "Brain Development, Coding and Algorithm in Early Childhood" (partners: Zweden, Duitsland, Turkije, Kroatië, Portugal, Nederland)
+- Erasmus+ KA210: "Inclusive Art Education"
+- "Special Identity for Great Nature" (internationaal)
+- STEAM-onderwijs in 7 regio's (gemeentelijke partnerschappen)
+- Oekraïens jeugd-talentprogramma
 
-**Eindhoven (main location)**
-Kastanjelaan 410, Office 113
-5652 LD Eindhoven
-Tel: +31 685 485 534
+## Veelgestelde vragen
 
-**Eersel (De Kempen region)**
-Brouwer 1
-5521 DK Eersel
+### Op welke leeftijd kan een kind leren programmeren?
+Kinderen vanaf 3 jaar kunnen al beginnen met schermvrije programmeerconcepten (unplugged coding). Vanaf 5-6 jaar zijn visuele programmeertalen zoals ScratchJr geschikt. Vanaf 8-9 jaar kunnen kinderen overstappen op Scratch en micro:bit, en vanaf 12 jaar op Python en Arduino.
 
-Both locations open: Mon–Fri 13:00–19:00, Sat 09:00–17:00
+### Wat is het verschil tussen STEM en STEAM onderwijs?
+STEM staat voor Science, Technology, Engineering en Mathematics. STEAM voegt Arts (kunsten) toe, waardoor creativiteit centraal staat. Bij LEA gebruiken we de STEAM-aanpak omdat creativiteit en techniek onlosmakelijk met elkaar verbonden zijn.
+
+### Hoeveel kost een STEM-cursus voor kinderen?
+Kosten variëren per programma. LEA biedt een gratis proefles aan zodat ouders en kinderen eerst kunnen kennismaken. Neem contact op voor actuele tarieven.
+
+### Is mijn kind hoogbegaafd? Hoe herken ik de signalen?
+Hoogbegaafdheid uit zich niet alleen in schoolprestaties. Signalen zijn onder andere intense nieuwsgierigheid, snelle verbanden leggen, sterke rechtvaardigheidsgevoel en asynce ontwikkeling. LEA's TalentLAB analyseert 70 parameters om het volledige talentprofiel van een kind in kaart te brengen.
+
+### Wat is de beste naschoolse activiteit voor mijn kind?
+De beste naschoolse activiteit sluit aan bij de interesses en het ontwikkelstadium van het kind. STEM-activiteiten ontwikkelen probleemoplossend vermogen, creativiteit, samenwerking en doorzettingsvermogen — vaardigheden die in elk toekomstig beroep essentieel zijn.
+
+## Belangrijke pagina's
+- Website: https://littleengineersacademy.com
+- Programma's: https://littleengineersacademy.com/programmas
+- TalentLAB: https://littleengineersacademy.com/talentanalyse
+- Methode: https://littleengineersacademy.com/methode
+- Voor Scholen: https://littleengineersacademy.com/voor-scholen
+- Voor Gemeenten: https://littleengineersacademy.com/voor-gemeenten
+- EU-projecten: https://littleengineersacademy.com/eu-projecten
+- Kennisbank: https://littleengineersacademy.com/kennisbank
+- Gratis proefles: https://littleengineersacademy.com/programmas/proefles
+- Sociale Impact: https://littleengineersacademy.com/sociale-impact
+- Locatie Eindhoven: https://littleengineersacademy.com/locaties/eindhoven
+- Locatie Eersel: https://littleengineersacademy.com/locaties/eersel
+- Contact: https://littleengineersacademy.com/contact
 
 ## Contact
+- Telefoon/WhatsApp: +31 685 485 534
+- Adres Eindhoven: Kastanjelaan 410, Office 113, 5652 LD Eindhoven
+- Adres Eersel: Brouwer 1, 5521 DK Eersel
+- Instagram: https://www.instagram.com/little_engineers_academy/
+- YouTube: https://www.youtube.com/@kucukmuhendisleratolyesi4776
 
-Email: info@littleengineersacademy.com
-Website: https://littleengineersacademy.com
-
-## Key URLs
-
-- Homepage: https://littleengineersacademy.com/
-- Programs overview: https://littleengineersacademy.com/programmas
-- Kleine Uitvinders (3-6): https://littleengineersacademy.com/programmas/kleine-uitvinders-3-6
-- Jonge Makers (6-9): https://littleengineersacademy.com/programmas/jonge-makers-6-9
-- Slimme Bouwers (9-12): https://littleengineersacademy.com/programmas/slimme-bouwers-9-12
-- Toekomstige Ingenieurs (12-17): https://littleengineersacademy.com/programmas/toekomstige-ingenieurs-12-17
-- Holiday camps: https://littleengineersacademy.com/programmas/vakantiekampen
-- Birthday parties: https://littleengineersacademy.com/programmas/kinderfeestjes
-- Free trial lesson: https://littleengineersacademy.com/programmas/proefles
-- Talent Analysis: https://littleengineersacademy.com/talentanalyse
-- Our method: https://littleengineersacademy.com/methode
-- For schools: https://littleengineersacademy.com/voor-scholen
-- Research: https://littleengineersacademy.com/onderzoek
-- About us: https://littleengineersacademy.com/over-ons
-- Testimonials: https://littleengineersacademy.com/ervaringen
-- FAQ: https://littleengineersacademy.com/veelgestelde-vragen
-- Pricing: https://littleengineersacademy.com/tarieven
-- Eindhoven location: https://littleengineersacademy.com/locaties/eindhoven
-- Eersel location: https://littleengineersacademy.com/locaties/eersel
-- Contact: https://littleengineersacademy.com/contact
-- Knowledge base: https://littleengineersacademy.com/kennisbank
-- Article - Programming age: https://littleengineersacademy.com/kennisbank/welke-leeftijd-leren-programmeren
-- Article - Screen-free coding: https://littleengineersacademy.com/kennisbank/schermvrij-coderen-kleuters
-- Article - Fine motor skills: https://littleengineersacademy.com/kennisbank/fijne-motoriek-activiteiten
-- Article - Giftedness: https://littleengineersacademy.com/kennisbank/is-mijn-kind-hoogbegaafd
-- Article - Screen time: https://littleengineersacademy.com/kennisbank/schermtijd-per-leeftijd
-- Article - Robotics guide: https://littleengineersacademy.com/kennisbank/robotica-voor-kinderen-gids
-- Sitemap: https://littleengineersacademy.com/sitemap.xml
+## Steden / Locaties
+Little Engineers Academy biedt STEM-, codeer- en roboticalessen voor kinderen in en rond de volgende steden:
+- Eindhoven: https://littleengineersacademy.com/steden/eindhoven
+- Eersel: https://littleengineersacademy.com/steden/eersel
+- Amsterdam: https://littleengineersacademy.com/steden/amsterdam
+- Rotterdam: https://littleengineersacademy.com/steden/rotterdam
+- Den Haag: https://littleengineersacademy.com/steden/den-haag
+- Utrecht: https://littleengineersacademy.com/steden/utrecht
+- Tilburg: https://littleengineersacademy.com/steden/tilburg
+- Breda: https://littleengineersacademy.com/steden/breda
+- Helmond: https://littleengineersacademy.com/steden/helmond
+- 's-Hertogenbosch: https://littleengineersacademy.com/steden/s-hertogenbosch
+- Alle steden: https://littleengineersacademy.com/steden

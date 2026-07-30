@@ -222,7 +222,29 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="border-t border-slate-800 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-slate-500">
+        <div className="border-t border-slate-800 mt-12 pt-8">
+          <p className="text-slate-400 text-xs uppercase tracking-widest mb-3">Steden</p>
+          <div className="flex flex-wrap gap-x-4 gap-y-2 text-sm">
+            {[
+              { href: "/steden/eindhoven", label: "Eindhoven" },
+              { href: "/steden/eersel", label: "Eersel" },
+              { href: "/steden/amsterdam", label: "Amsterdam" },
+              { href: "/steden/rotterdam", label: "Rotterdam" },
+              { href: "/steden/den-haag", label: "Den Haag" },
+              { href: "/steden/utrecht", label: "Utrecht" },
+              { href: "/steden/tilburg", label: "Tilburg" },
+              { href: "/steden/breda", label: "Breda" },
+              { href: "/steden/helmond", label: "Helmond" },
+              { href: "/steden/s-hertogenbosch", label: "'s-Hertogenbosch" },
+              { href: "/steden", label: "Alle steden →" },
+            ].map((s) => (
+              <Link key={s.href} href={s.href} className="hover:text-white transition-colors">
+                {s.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+        <div className="border-t border-slate-800 mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-slate-500">
           <p>© 2026 Little Engineers Academy. Alle rechten voorbehouden. KvK: [nummer volgt]</p>
           <blockquote className="italic text-slate-400 text-center">
             &ldquo;Elke vis verdient het om te zwemmen. Wij vinden zijn oceaan.&rdquo;
