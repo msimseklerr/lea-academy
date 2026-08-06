@@ -62,7 +62,13 @@
       "Bash(curl -s http://localhost:3000/sitemap.xml)",
       "Bash(curl -s http://localhost:3000/steden)",
       "Bash(curl -s http://localhost:3000/kennisbank)",
-      "Bash(curl -s -o /dev/null -w \"steden/eindhoven: %{http_code}\\\\n\" http://localhost:3000/steden/eindhoven)"
+      "Bash(curl -s -o /dev/null -w \"steden/eindhoven: %{http_code}\\\\n\" http://localhost:3000/steden/eindhoven)",
+      "Bash(cp workshops/1.png  public/images/workshops/formule-auto.png)",
+      "Bash(cp workshops/2.png  public/images/workshops/vliegtuig.png)",
+      "Bash(cp workshops/3.png  public/images/workshops/animatie-workshop.png)",
+      "Bash(cp workshops/4.png  public/images/workshops/kunstmachine.png)",
+      "Bash(cp workshops/5.png  public/images/workshops/zeilboot.png)",
+      "Bash(curl *)"
     ]
   }
 }
