@@ -76,7 +76,8 @@
       "Bash(echo \"exit:$?\")",
       "Bash(git stash *)",
       "Bash(NODE_PATH=\"$\\(pwd\\)/node_modules\" node \"C:\\\\Users\\\\LEA\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-LEA-Downloads-lea-academy-lea-academy\\\\8e15e416-34a0-4ad6-b0b4-e270502f3f71\\\\scratchpad\\\\check_articles.js\")",
-      "Bash(grep -o \"<h1[^>]*>.\\\\{0,220\\\\}\" .next/server/app/index.html)"
+      "Bash(grep -o \"<h1[^>]*>.\\\\{0,220\\\\}\" .next/server/app/index.html)",
+      "Bash(grep -o \"<h1[^>]*>.\\\\{0,150\\\\}\" .next/server/app/index.html)"
     ]
   }
 }

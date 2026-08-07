@@ -142,11 +142,11 @@ export default function HomePage() {
                 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight mb-6"
                 style={{ fontFamily: "var(--font-plus-jakarta-sans)" }}
               >
-                <span className="text-slate-900">Wij vragen niet hoe slim je kind is. Wij ontdekken </span>
+                <span className="text-slate-900">Ontdek het </span>
                 <span className="bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-500 bg-clip-text text-transparent">
-                  hóé
+                  talent
                 </span>
-                <span className="text-slate-900"> je kind slim is.</span>
+                <span className="text-slate-900"> van jouw kind.</span>
               </h1>
               <p className="text-lg md:text-xl text-slate-600 leading-relaxed mb-6 max-w-lg">
                 Vanuit Brainport Eindhoven biedt LEA voor kinderen van 3 tot 17
