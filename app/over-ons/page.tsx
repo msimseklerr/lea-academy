@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import AnimatedSection from "@/components/AnimatedSection";
-import StatCounter from "@/components/StatCounter";
+import StatCounterInstant from "@/components/StatCounterInstant";
 import CTASection from "@/components/CTASection";
 import FAQAccordion from "@/components/FAQAccordion";
 import Breadcrumb from "@/components/Breadcrumb";
@@ -25,7 +25,7 @@ import {
 export const metadata: Metadata = {
   title: "Over Ons | Het Verhaal van Little Engineers Academy",
   description:
-    "Little Engineers Academy is opgericht in 2016 in Eindhoven door Mustafa Şimşekler. Lees ons verhaal, onze 10-jarige tijdlijn en ontmoet ons multidisciplinaire team.",
+    "Little Engineers Academy is in 2016 opgericht door Mustafa Şimşekler. Lees ons verhaal, onze 10-jarige tijdlijn en ontmoet ons multidisciplinaire team.",
   alternates: { canonical: "https://littleengineersacademy.com/over-ons" },
 };
 
@@ -33,7 +33,7 @@ const faqItems = [
   {
     question: "Wanneer is Little Engineers Academy opgericht?",
     answer:
-      "Little Engineers Academy is in 2016 in Eindhoven opgericht door Mustafa Şimşekler, met als missie om STEM-onderwijs toegankelijk, inspirerend en betekenisvol te maken voor elk kind — ongeacht achtergrond of voorkennis.",
+      "Little Engineers Academy is in 2016 opgericht, met als missie om STEM-onderwijs toegankelijk, inspirerend en betekenisvol te maken voor elk kind — ongeacht achtergrond of voorkennis.",
   },
   {
     question: "Hoe groot is het team van LEA?",
@@ -50,8 +50,8 @@ const faqItems = [
 const timeline = [
   {
     year: "2016",
-    title: "Oprichting door Mustafa Şimşekler",
-    desc: "Little Engineers Academy wordt in Eindhoven opgericht door Mustafa Şimşekler, met de ambitie om STEM-onderwijs toegankelijk te maken voor elk kind.",
+    title: "Oprichting van Little Engineers Academy",
+    desc: "Little Engineers Academy wordt opgericht, met de ambitie om STEM-onderwijs toegankelijk te maken voor elk kind.",
   },
   {
     year: "2016-2021",
@@ -134,7 +134,7 @@ export default function OverOnsPage() {
               Ons verhaal
             </h1>
             <p className="text-lg text-slate-600 max-w-2xl leading-relaxed">
-              Little Engineers Academy is een STEM-educatieacademie voor kinderen van 3 tot 17 jaar, opgericht in 2016 in Eindhoven door Mustafa Şimşekler. Wij zijn opgericht vanuit één overtuiging: elk kind heeft de potentie om een innovator, maker of probleemoplosser te worden. Onze taak is die potentie te helpen ontdekken.
+              Little Engineers Academy is een STEM-educatieacademie voor kinderen van 3 tot 17 jaar, in 2016 opgericht door Mustafa Şimşekler. Wij zijn opgericht vanuit één overtuiging: elk kind heeft de potentie om een innovator, maker of probleemoplosser te worden. Onze taak is die potentie te helpen ontdekken.
             </p>
           </AnimatedSection>
         </div>
@@ -259,12 +259,12 @@ export default function OverOnsPage() {
       {/* STATS */}
       <section className="bg-slate-900 py-16 px-4">
         <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-8">
-          <StatCounter value={12000} suffix="+" label="leerlingen bereikt" />
-          <StatCounter value={33000} suffix="+" label="robots gebouwd" />
-          <StatCounter value={10} suffix="+" label="jaar ervaring" />
-          <StatCounter value={150} suffix="+" label="scholen" />
-          <StatCounter value={12} suffix="+" label="landen" />
-          <StatCounter value={40} label="locaties in Nederland" />
+          <StatCounterInstant value={12000} suffix="+" label="leerlingen bereikt" />
+          <StatCounterInstant value={33000} suffix="+" label="robots gebouwd" />
+          <StatCounterInstant value={10} suffix="+" label="jaar ervaring" />
+          <StatCounterInstant value={150} suffix="+" label="scholen" />
+          <StatCounterInstant value={12} suffix="+" label="landen" />
+          <StatCounterInstant value={40} label="locaties in Nederland" />
         </div>
       </section>
 
