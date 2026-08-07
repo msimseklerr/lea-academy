@@ -149,6 +149,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/kennisbank/beste-workshop-voor-school" className="hover:text-white transition-colors">
+                  Gidsen voor leerkrachten
+                </Link>
+              </li>
+              <li>
                 <Link href="/hoe-maak-je-het" className="hover:text-white transition-colors">
                   Hoe Maak Je Het?
                 </Link>

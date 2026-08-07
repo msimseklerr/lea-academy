@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { School, Building2, Landmark, Check, Rabbit, ScrollText, Wind, MessageCircle } from "lucide-react";
+import { School, Building2, Landmark, Check, Rabbit, ScrollText, Wind, MessageCircle, BookOpen, ArrowRight } from "lucide-react";
 import AnimatedSection from "@/components/AnimatedSection";
 import CTASection from "@/components/CTASection";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -334,6 +334,56 @@ export default function VoorScholenPage() {
               </div>
             </AnimatedSection>
           </div>
+        </div>
+      </section>
+
+      {/* GIDSEN VOOR LEERKRACHTEN */}
+      <section className="py-16 px-4">
+        <div className="max-w-7xl mx-auto">
+          <AnimatedSection>
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-10 h-10 bg-fuchsia-100 rounded-xl flex items-center justify-center">
+                <BookOpen size={20} className="text-fuchsia-600" />
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold text-slate-900" style={{ fontFamily: "var(--font-plus-jakarta-sans)" }}>
+                Gidsen voor leerkrachten &amp; schoolleiders
+              </h2>
+            </div>
+            <p className="text-slate-600 max-w-2xl mb-8 leading-relaxed">
+              Op zoek naar meer achtergrond voordat u een workshop aanvraagt? Onze kennisbank bevat uitgebreide, praktische gidsen speciaal voor het onderwijs.
+            </p>
+          </AnimatedSection>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              { slug: "beste-workshop-voor-school", title: "Hoe kies je de beste externe workshop voor jouw school?" },
+              { slug: "steam-workshops-basisonderwijs-gids", title: "STEAM-workshops voor het basisonderwijs: de complete gids" },
+              { slug: "workshopaanbieder-scholen-10-vragen", title: "De beste workshopaanbieder kiezen: 10 vragen die je moet stellen" },
+              { slug: "workshops-koppelen-aan-lesstof", title: "Workshops koppelen aan je lesstof: geschiedenis, biologie en cultuur" },
+              { slug: "projectweek-techniek-organiseren", title: "Een projectweek techniek organiseren: stappenplan voor scholen" },
+              { slug: "wat-kost-schoolworkshop", title: "Wat kost een schoolworkshop en wat krijg je ervoor?" },
+            ].map((item, i) => (
+              <AnimatedSection key={item.slug} delay={(i % 6) * 0.05}>
+                <Link
+                  href={`/kennisbank/${item.slug}`}
+                  className="group block h-full bg-white rounded-2xl border border-slate-100 shadow-sm p-6 hover:border-fuchsia-300 hover:shadow-md transition-all"
+                >
+                  <h3 className="font-bold text-slate-900 mb-3 leading-snug group-hover:text-fuchsia-600 transition-colors">
+                    {item.title}
+                  </h3>
+                  <span className="inline-flex items-center gap-1 text-fuchsia-600 font-semibold text-sm">
+                    Lees de gids <ArrowRight size={14} />
+                  </span>
+                </Link>
+              </AnimatedSection>
+            ))}
+          </div>
+          <AnimatedSection>
+            <div className="mt-8 text-center">
+              <Link href="/kennisbank" className="text-indigo-600 font-semibold hover:underline">
+                Bekijk alle kennisbank-artikelen →
+              </Link>
+            </div>
+          </AnimatedSection>
         </div>
       </section>
 

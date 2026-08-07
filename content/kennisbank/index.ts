@@ -30,6 +30,18 @@ import ruimtelijkInzichtKinderen from "./articles/ruimtelijk-inzicht-kinderen";
 import motivatieKinderenBelonen from "./articles/motivatie-kinderen-belonen";
 import stemCadeausPerLeeftijd from "./articles/stem-cadeaus-per-leeftijd";
 import reverseEngineeringKinderen from "./articles/reverse-engineering-kinderen";
+import workshopsKoppelenAanLesstof from "./articles/workshops-koppelen-aan-lesstof";
+import besteWorkshopVoorSchool from "./articles/beste-workshop-voor-school";
+import steamWorkshopsBasisonderwijsGids from "./articles/steam-workshops-basisonderwijs-gids";
+import techniekworkshopsSchoolGroep38 from "./articles/techniekworkshops-school-groep-3-8";
+import projectweekTechniekOrganiseren from "./articles/projectweek-techniek-organiseren";
+import gastlessenTechniekWetenschap from "./articles/gastlessen-techniek-wetenschap";
+import workshopaanbiederScholen10Vragen from "./articles/workshopaanbieder-scholen-10-vragen";
+import workshopOpMaatVsStandaard from "./articles/workshop-op-maat-vs-standaard";
+import wtCurriculumExternePartners from "./articles/wt-curriculum-externe-partners";
+import schermvrijLerenOpSchool from "./articles/schermvrij-leren-op-school";
+import creativiteitEnTechniekKlas from "./articles/creativiteit-en-techniek-klas";
+import watKostSchoolworkshop from "./articles/wat-kost-schoolworkshop";
 
 export const articles: Record<ArticleSlug, Article> = {
   "welke-leeftijd-leren-programmeren": welkeLeeftijdLerenProgrammeren,
@@ -62,6 +74,18 @@ export const articles: Record<ArticleSlug, Article> = {
   "motivatie-kinderen-belonen": motivatieKinderenBelonen,
   "stem-cadeaus-per-leeftijd": stemCadeausPerLeeftijd,
   "reverse-engineering-kinderen": reverseEngineeringKinderen,
+  "workshops-koppelen-aan-lesstof": workshopsKoppelenAanLesstof,
+  "beste-workshop-voor-school": besteWorkshopVoorSchool,
+  "steam-workshops-basisonderwijs-gids": steamWorkshopsBasisonderwijsGids,
+  "techniekworkshops-school-groep-3-8": techniekworkshopsSchoolGroep38,
+  "projectweek-techniek-organiseren": projectweekTechniekOrganiseren,
+  "gastlessen-techniek-wetenschap": gastlessenTechniekWetenschap,
+  "workshopaanbieder-scholen-10-vragen": workshopaanbiederScholen10Vragen,
+  "workshop-op-maat-vs-standaard": workshopOpMaatVsStandaard,
+  "wt-curriculum-externe-partners": wtCurriculumExternePartners,
+  "schermvrij-leren-op-school": schermvrijLerenOpSchool,
+  "creativiteit-en-techniek-klas": creativiteitEnTechniekKlas,
+  "wat-kost-schoolworkshop": watKostSchoolworkshop,
 };
 
 export const articleList: Article[] = Object.values(articles);

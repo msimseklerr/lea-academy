@@ -28,6 +28,7 @@ const categoryColors: Record<string, string> = {
   "Maker Education": "bg-green-100 text-green-700",
   Toekomstvaardigheden: "bg-purple-100 text-purple-700",
   Praktisch: "bg-cyan-100 text-cyan-700",
+  "Voor scholen": "bg-fuchsia-100 text-fuchsia-700",
 };
 
 export default function KennisbankPage() {

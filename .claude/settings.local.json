@@ -68,7 +68,14 @@
       "Bash(cp workshops/3.png  public/images/workshops/animatie-workshop.png)",
       "Bash(cp workshops/4.png  public/images/workshops/kunstmachine.png)",
       "Bash(cp workshops/5.png  public/images/workshops/zeilboot.png)",
-      "Bash(curl *)"
+      "Bash(curl *)",
+      "Bash(mv \"workshops/workshop-op-maat-vs-standaard.ts\" \"content/kennisbank/articles/workshop-op-maat-vs-standaard.ts\")",
+      "Bash(rmdir workshops *)",
+      "Bash(python3 -c ' *)",
+      "Bash(npx --no-install tsc --noEmit --target es2020 --module esnext --moduleResolution node --skipLibCheck content/kennisbank/articles/workshop-op-maat-vs-standaard.ts)",
+      "Bash(echo \"exit:$?\")",
+      "Bash(git stash *)",
+      "Bash(NODE_PATH=\"$\\(pwd\\)/node_modules\" node \"C:\\\\Users\\\\LEA\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-LEA-Downloads-lea-academy-lea-academy\\\\8e15e416-34a0-4ad6-b0b4-e270502f3f71\\\\scratchpad\\\\check_articles.js\")"
     ]
   }
 }

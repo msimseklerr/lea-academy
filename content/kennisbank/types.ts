@@ -28,7 +28,19 @@ export type ArticleSlug =
   | "ruimtelijk-inzicht-kinderen"
   | "motivatie-kinderen-belonen"
   | "stem-cadeaus-per-leeftijd"
-  | "reverse-engineering-kinderen";
+  | "reverse-engineering-kinderen"
+  | "beste-workshop-voor-school"
+  | "steam-workshops-basisonderwijs-gids"
+  | "techniekworkshops-school-groep-3-8"
+  | "projectweek-techniek-organiseren"
+  | "gastlessen-techniek-wetenschap"
+  | "workshopaanbieder-scholen-10-vragen"
+  | "workshop-op-maat-vs-standaard"
+  | "wt-curriculum-externe-partners"
+  | "schermvrij-leren-op-school"
+  | "creativiteit-en-techniek-klas"
+  | "workshops-koppelen-aan-lesstof"
+  | "wat-kost-schoolworkshop";
 
 export interface ArticleTable {
   title?: string;
