@@ -57,11 +57,11 @@ export const galleryImages: GalleryImage[] = [
     title: "Kleine Uitvinders",
   },
   {
-    src: "https://images.unsplash.com/photo-1567165737895-82931dd0c00c?w=900&q=80",
+    src: "/images/workshops/microcontroller-elektronica.png",
     alt: "Close-up van een micro:bit circuit dat een kind heeft geprogrammeerd",
     category: "robotica",
-    width: 900,
-    height: 600,
+    width: 2000,
+    height: 2000,
     title: "Micro:bit project",
   },
   {

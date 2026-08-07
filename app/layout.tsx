@@ -39,6 +39,10 @@ const organizationSchema = {
   url: "https://littleengineersacademy.com",
   logo: "https://littleengineersacademy.com/logo.png",
   foundingDate: "2016",
+  founder: {
+    "@type": "Person",
+    name: "Mustafa Şimşekler",
+  },
   email: "info@littleengineersacademy.com",
   telephone: "+31685485534",
   sameAs: [

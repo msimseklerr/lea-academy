@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   title:
     "Little Engineers Academy | STEM, Robotica & Coderen voor Kinderen",
   description:
-    "Little Engineers Academy in Eindhoven en Eersel: 200+ engineering-workshops voor kinderen van 3-17 jaar. Robotica, coderen en een wetenschappelijke talentanalyse op 70 parameters. 10.000+ afgestudeerden.",
+    "Wij vragen niet hoe slim uw kind is — wij ontdekken hóé. Little Engineers Academy in Eindhoven en Eersel biedt 200+ engineering-workshops voor kinderen van 3-17 jaar, robotica, coderen en een wetenschappelijke talentanalyse op 70 parameters. 12.000+ leerlingen bereikt.",
   alternates: { canonical: "https://littleengineersacademy.com" },
   openGraph: {
     title:
@@ -39,6 +39,18 @@ const websiteSchema = {
   "@type": "WebSite",
   name: "Little Engineers Academy",
   url: "https://littleengineersacademy.com",
+};
+
+const webPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://littleengineersacademy.com/",
+  url: "https://littleengineersacademy.com",
+  name: "Little Engineers Academy | STEM, Robotica & Coderen voor Kinderen",
+  speakable: {
+    "@type": "SpeakableSpecification",
+    cssSelector: ["h1", "blockquote"],
+  },
 };
 
 const faqItems = [
@@ -98,6 +110,10 @@ export default function HomePage() {
       />
       <script
         type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
+      />
+      <script
+        type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       <script
@@ -126,20 +142,23 @@ export default function HomePage() {
                 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight mb-6"
                 style={{ fontFamily: "var(--font-plus-jakarta-sans)" }}
               >
-                <span className="text-slate-900">Van passieve consumenten naar de </span>
+                <span className="text-slate-900">Wij vragen niet hoe slim je kind is. Wij ontdekken </span>
                 <span className="bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-500 bg-clip-text text-transparent">
-                  actieve makers
+                  hóé
                 </span>
-                <span className="text-slate-900"> van morgen.</span>
+                <span className="text-slate-900"> je kind slim is.</span>
               </h1>
               <p className="text-lg md:text-xl text-slate-600 leading-relaxed mb-6 max-w-lg">
                 Vanuit Brainport Eindhoven biedt LEA voor kinderen van 3 tot 17
                 jaar 200+ originele engineering-workshops — 80% schermvrij — en
                 een wetenschappelijke talentanalyse op basis van 70 parameters.
               </p>
-              <p className="text-xl md:text-2xl font-bold italic text-indigo-600 mb-8 max-w-lg">
+              <blockquote
+                cite="https://littleengineersacademy.com"
+                className="text-xl md:text-2xl font-bold italic text-indigo-600 mb-8 max-w-lg"
+              >
                 &ldquo;Elk kind is ergens een genie. Wij ontdekken waar.&rdquo;
-              </p>
+              </blockquote>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   href="/programmas/proefles"
@@ -178,7 +197,7 @@ export default function HomePage() {
             {[
               { value: "12+", label: "landen actief" },
               { value: "150+", label: "partnerorganisaties" },
-              { value: "10.000+", label: "afgestudeerde leerlingen" },
+              { value: "12.000+", label: "leerlingen bereikt" },
               { value: "300.000+", label: "geanalyseerde datapunten" },
             ].map((s) => (
               <div key={s.label}>
@@ -344,11 +363,23 @@ export default function HomePage() {
               Wat bereiken onze leerlingen?
             </p>
             <h2
-              className="text-3xl md:text-4xl font-bold text-slate-900 mb-8"
+              className="text-3xl md:text-4xl font-bold text-slate-900 mb-6"
               style={{ fontFamily: "var(--font-plus-jakarta-sans)" }}
             >
               Wat kan een LEA-leerling?
             </h2>
+            <blockquote
+              cite="https://littleengineersacademy.com"
+              className="text-2xl md:text-3xl font-extrabold leading-tight mb-8"
+              style={{ fontFamily: "var(--font-plus-jakarta-sans)" }}
+            >
+              <span className="bg-gradient-to-r from-indigo-600 to-fuchsia-500 bg-clip-text text-transparent">
+                Met één motor 40 robots.
+              </span>{" "}
+              <span className="text-slate-900">
+                Echte auto&apos;s om in te rijden. Dit is geen speelgoed — dit is engineering.
+              </span>
+            </blockquote>
             <blockquote className="border-l-4 border-indigo-600 pl-6 py-2">
               <p className="text-lg md:text-xl text-slate-700 leading-relaxed">
                 Bij Little Engineers Academy luisteren kinderen niet alleen naar
@@ -484,7 +515,7 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
           <StatCounter value={12} suffix="+" label="landen actief" />
           <StatCounter value={150} suffix="+" label="partnerorganisaties" />
-          <StatCounter value={10000} suffix="+" label="afgestudeerde leerlingen" />
+          <StatCounter value={12000} suffix="+" label="leerlingen bereikt" />
           <StatCounter value={300000} suffix="+" label="geanalyseerde datapunten" />
         </div>
       </section>

@@ -1,14 +1,31 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import AnimatedSection from "@/components/AnimatedSection";
 import StatCounter from "@/components/StatCounter";
 import CTASection from "@/components/CTASection";
 import FAQAccordion from "@/components/FAQAccordion";
 import Breadcrumb from "@/components/Breadcrumb";
+import {
+  Palette,
+  Music,
+  GraduationCap,
+  Microscope,
+  SlidersHorizontal,
+  Cog,
+  Flower2,
+  Zap,
+  Cpu,
+  Brain,
+  Radio,
+  Baby,
+  Stethoscope,
+  Users,
+} from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Over Ons | Het Verhaal van Little Engineers Academy",
   description:
-    "Little Engineers Academy is opgericht in 2016 in Eindhoven. Lees ons verhaal, onze missie en ontdek wat ons drijft om STEM-onderwijs toegankelijk te maken voor elk kind.",
+    "Little Engineers Academy is opgericht in 2016 in Eindhoven door Mustafa Şimşekler. Lees ons verhaal, onze 10-jarige tijdlijn en ontmoet ons multidisciplinaire team.",
   alternates: { canonical: "https://littleengineersacademy.com/over-ons" },
 };
 
@@ -16,12 +33,12 @@ const faqItems = [
   {
     question: "Wanneer is Little Engineers Academy opgericht?",
     answer:
-      "Little Engineers Academy is in 2016 opgericht in Eindhoven, met als missie om STEM-onderwijs toegankelijk, inspirerend en betekenisvol te maken voor elk kind — ongeacht achtergrond of voorkennis.",
+      "Little Engineers Academy is in 2016 in Eindhoven opgericht door Mustafa Şimşekler, met als missie om STEM-onderwijs toegankelijk, inspirerend en betekenisvol te maken voor elk kind — ongeacht achtergrond of voorkennis.",
   },
   {
     question: "Hoe groot is het team van LEA?",
     answer:
-      "Ons team groeit gestaag. We werken met een kern van vaste coaches en een netwerk van gespecialiseerde instructeurs. Alle coaches zijn getraind in onze methode en hebben ervaring met de betreffende leeftijdsgroepen.",
+      "Ons team bestaat uit specialisten uit heel verschillende disciplines: ingenieurs, kunstenaars, musici, leerkrachten, academici en psychologen. Iedereen is getraind in onze methode en heeft ervaring met de betreffende leeftijdsgroepen.",
   },
   {
     question: "Werkt Little Engineers Academy ook met vrijwilligers of stagiaires?",
@@ -31,12 +48,78 @@ const faqItems = [
 ];
 
 const timeline = [
-  { year: "2016", title: "Oprichting in Eindhoven", desc: "Little Engineers Academy start met een kleine groep kinderen in Eindhoven. De eerste lessen zijn gebaseerd op Scratch en eenvoudige robotica." },
-  { year: "2018", title: "Opening Eersel & 1.000 kinderen", desc: "De tweede locatie opent in Eersel. In hetzelfde jaar bereiken we de mijlpaal van 1.000 begeleidde kinderen." },
-  { year: "2020", title: "Online doorgaan tijdens pandemie", desc: "Tijdens de COVID-19 pandemie ontwikkelen wij een online lesprogramma. Meer dan 200 gezinnen volgen wekelijks een les vanuit huis." },
-  { year: "2022", title: "Erasmus+ & nationale prijs", desc: "We starten met twee Erasmus+ projecten en behalen de 2e prijs in de nationale techniekprojectencompetitie." },
-  { year: "2025", title: "33.000 kinderen bereikt", desc: "Een historische mijlpaal: meer dan 33.000 kinderen hebben inmiddels een programma bij LEA gevolgd. 9.300+ robots zijn gebouwd." },
-  { year: "2026", title: "Heden & toekomst", desc: "Twee sterke locaties, 295.000+ observatiepunten en een internationaal netwerk. We blijven groeien — altijd met het kind centraal." },
+  {
+    year: "2016",
+    title: "Oprichting door Mustafa Şimşekler",
+    desc: "Little Engineers Academy wordt in Eindhoven opgericht door Mustafa Şimşekler, met de ambitie om STEM-onderwijs toegankelijk te maken voor elk kind.",
+  },
+  {
+    year: "2016-2021",
+    title: "6.000 leerlingen in de eerste vijf jaar",
+    desc: "Een team van ingenieurs en pedagogen bouwt de methode verder uit. In de eerste vijf jaar bereikt LEA al meer dan 6.000 leerlingen.",
+  },
+  {
+    year: "2020-2021",
+    title: "Doorgaan tijdens de pandemie",
+    desc: "Tijdens de pandemie blijft LEA de gemeenschap ondersteunen met online lessen en broadcasts, zodat kinderen thuis konden blijven leren en bouwen.",
+  },
+  {
+    year: "2022",
+    title: "Little Engineering Artistic Academy in Utrecht",
+    desc: "Met financiering van Gemeente Utrecht en Macchinerie start het project 'Little Engineering Artistic Academy'. Het doel was 800 leerlingen — in het centrum van Utrecht werden uiteindelijk 1.200 leerlingen bereikt.",
+  },
+  {
+    year: "2023",
+    title: "Tweede prijs tijdens de Sint Maarten-viering",
+    desc: "LEA behaalt de tweede prijs voor het beste project tijdens de Sint Maarten-viering.",
+  },
+  {
+    year: "2024",
+    title: "Talentanalyse voor Oekraïense leerlingen",
+    desc: "In de Jaarbeurs in Utrecht verzorgt LEA talentanalyse-workshops voor leerlingen uit Oekraïne.",
+  },
+  {
+    year: "2024",
+    title: "12x TechFunday op middelbare scholen",
+    desc: "Met de TechFunday-evenementen organiseert LEA 12 keer een beursactiviteit op middelbare scholen in het centrum van Eindhoven.",
+  },
+  {
+    year: "2024",
+    title: "Coördinator van Erasmus+ projecten",
+    desc: "LEA vervult een coördinerende rol in de Erasmus+ projecten 'SIGN' en 'Robotic Art'.",
+  },
+  {
+    year: "2025",
+    title: "LEA-methodologie internationaal toegepast",
+    desc: "De LEA-onderwijsmethodologie wordt toegepast in Canada, Kroatië, Madeira en Duitsland.",
+  },
+  {
+    year: "2026",
+    title: "Talent Analyse Centrum in Ede",
+    desc: "Met het project 'Talent Analyse Centrum' van Gemeente Ede wordt een talentcentrum opgezet in Ede.",
+  },
+  {
+    year: "2026",
+    title: "40 locaties in heel Nederland",
+    desc: "Gevestigd in de regio waar Philips ooit is opgericht, biedt LEA inmiddels talentanalyse-diensten aan op 40 verschillende locaties door heel Nederland.",
+  },
+];
+
+const disciplines = [
+  { label: "Kunstenaars", icon: Palette },
+  { label: "Musici", icon: Music },
+  { label: "Leerkrachten", icon: GraduationCap },
+  { label: "Academici", icon: Microscope },
+  { label: "Regeltechniek-ingenieurs", icon: SlidersHorizontal },
+  { label: "Werktuigbouwkundig ingenieurs", icon: Cog },
+  { label: "Montessori-specialisten", icon: Flower2 },
+  { label: "Elektrotechnisch ingenieurs", icon: Zap },
+  { label: "IT-ingenieurs", icon: Cpu },
+  { label: "PhD Cognitieve Wetenschap", icon: Brain },
+  { label: "Communicatie-ingenieurs", icon: Radio },
+  { label: "Kleuterleerkrachten", icon: Baby },
+  { label: "Psychiaters", icon: Stethoscope },
+  { label: "Specialisten kinderontwikkeling", icon: Users },
 ];
 
 export default function OverOnsPage() {
@@ -46,12 +129,12 @@ export default function OverOnsPage() {
         <div className="max-w-7xl mx-auto">
           <Breadcrumb crumbs={[{ label: "Start", href: "/" }, { label: "Over Ons" }]} />
           <AnimatedSection>
-            <p className="text-sm font-semibold uppercase tracking-widest text-indigo-600 mb-3">Opgericht 2016</p>
+            <p className="text-sm font-semibold uppercase tracking-widest text-indigo-600 mb-3">Opgericht in 2016</p>
             <h1 className="text-4xl md:text-6xl font-extrabold text-slate-900 tracking-tight mb-4" style={{ fontFamily: "var(--font-plus-jakarta-sans)" }}>
               Ons verhaal
             </h1>
             <p className="text-lg text-slate-600 max-w-2xl leading-relaxed">
-              Little Engineers Academy is opgericht vanuit één overtuiging: elk kind heeft de potentie om een innovator, maker of probleemoplosser te worden. Onze taak is die potentie te helpen ontdekken.
+              Little Engineers Academy is een STEM-educatieacademie voor kinderen van 3 tot 17 jaar, opgericht in 2016 in Eindhoven door Mustafa Şimşekler. Wij zijn opgericht vanuit één overtuiging: elk kind heeft de potentie om een innovator, maker of probleemoplosser te worden. Onze taak is die potentie te helpen ontdekken.
             </p>
           </AnimatedSection>
         </div>
@@ -77,81 +160,111 @@ export default function OverOnsPage() {
         </div>
       </section>
 
-      {/* TIMELINE */}
+      {/* TEAM PHOTO + MULTIDISCIPLINAIR TEAM */}
       <section className="py-16 px-4 bg-slate-50">
+        <div className="max-w-6xl mx-auto">
+          <AnimatedSection>
+            <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-4" style={{ fontFamily: "var(--font-plus-jakarta-sans)" }}>
+              Ons team
+            </h2>
+            <p className="text-slate-600 mb-8 leading-relaxed max-w-2xl">
+              Ons team bestaat uit gepassioneerde specialisten met achtergronden in techniek, onderwijs, kunst en psychologie. Allen getraind in de LEA Methode en gecertificeerd voor de betreffende leeftijdsgroepen.
+            </p>
+          </AnimatedSection>
+
+          <AnimatedSection delay={0.05}>
+            <div className="relative w-full rounded-2xl overflow-hidden border border-slate-200 shadow-sm bg-white mb-12">
+              <div className="relative w-full aspect-[16/9]">
+                <Image
+                  src="/images/site/lea-team.png"
+                  alt="Het multidisciplinaire team van Little Engineers Academy"
+                  fill
+                  className="object-contain"
+                  sizes="(max-width: 1024px) 100vw, 1024px"
+                />
+              </div>
+            </div>
+          </AnimatedSection>
+
+          <AnimatedSection delay={0.1}>
+            <h3 className="text-xl md:text-2xl font-bold text-slate-900 mb-4" style={{ fontFamily: "var(--font-plus-jakarta-sans)" }}>
+              Een multidisciplinair team
+            </h3>
+            <p className="text-slate-600 leading-relaxed max-w-2xl mb-8">
+              De kracht van LEA zit in ons team: specialisten uit heel verschillende disciplines die samen een completer beeld van elk kind vormen dan één vakgebied alleen zou kunnen. Van engineering tot kunst, van psychologie tot pedagogiek — iedere achtergrond draagt bij aan hoe wij kinderen begeleiden.
+            </p>
+          </AnimatedSection>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mb-8">
+            {disciplines.map((d, i) => {
+              const Icon = d.icon;
+              return (
+                <AnimatedSection key={d.label} delay={(i % 8) * 0.04}>
+                  <div className="flex items-center gap-3 bg-white rounded-xl border border-slate-100 shadow-sm p-4 h-full">
+                    <div className="w-10 h-10 bg-indigo-100 rounded-lg flex items-center justify-center shrink-0">
+                      <Icon size={18} className="text-indigo-600" />
+                    </div>
+                    <span className="text-sm font-semibold text-slate-800 leading-snug">{d.label}</span>
+                  </div>
+                </AnimatedSection>
+              );
+            })}
+          </div>
+
+          <AnimatedSection>
+            <p className="text-center text-slate-700 font-semibold text-lg max-w-3xl mx-auto leading-relaxed">
+              Bij LEA werken ingenieurs, kunstenaars, musici, pedagogen en psychologen samen — een unieke combinatie die je nergens anders vindt.
+            </p>
+          </AnimatedSection>
+        </div>
+      </section>
+
+      {/* TIMELINE */}
+      <section className="py-16 px-4">
         <div className="max-w-4xl mx-auto">
           <AnimatedSection>
-            <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-10" style={{ fontFamily: "var(--font-plus-jakarta-sans)" }}>
+            <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-4" style={{ fontFamily: "var(--font-plus-jakarta-sans)" }}>
               10 jaar LEA: een tijdlijn
             </h2>
+            <p className="text-slate-600 leading-relaxed mb-10 max-w-2xl">
+              In tien jaar tijd groeide Little Engineers Academy van een klein initiatief in Eindhoven tot een landelijk netwerk voor talentanalyse en STEM-onderwijs. Onderstaande tijdlijn laat de belangrijkste stappen zien — van de eerste les tot samenwerkingen in heel Europa.
+            </p>
           </AnimatedSection>
           <div className="relative">
             <div className="absolute left-6 top-0 bottom-0 w-0.5 bg-indigo-200" />
-            <div className="space-y-8">
+            <ol className="space-y-8">
               {timeline.map((item, i) => (
-                <AnimatedSection key={item.year} delay={i * 0.05}>
-                  <div className="flex gap-6 relative">
-                    <div className="w-12 h-12 bg-indigo-600 rounded-full flex items-center justify-center shrink-0 z-10 text-white text-xs font-bold">
-                      {item.year.slice(2)}
-                    </div>
-                    <div className="bg-white rounded-xl p-5 border border-slate-100 shadow-sm flex-1">
-                      <div className="flex items-center gap-2 mb-2">
-                        <span className="text-xs font-mono text-indigo-600">{item.year}</span>
-                        <h3 className="font-bold text-slate-900">{item.title}</h3>
+                <li key={`${item.year}-${item.title}`}>
+                  <AnimatedSection delay={i * 0.05}>
+                    <div className="flex gap-6 relative">
+                      <div className="w-12 h-12 bg-indigo-600 rounded-full flex items-center justify-center shrink-0 z-10 text-white text-xs font-bold text-center leading-tight px-1">
+                        {item.year.length > 4 ? item.year.split("-")[0].slice(2) : item.year.slice(2)}
                       </div>
-                      <p className="text-sm text-slate-600 leading-relaxed">{item.desc}</p>
+                      <div className="bg-white rounded-xl p-5 border border-slate-100 shadow-sm flex-1">
+                        <div className="flex items-center gap-2 mb-2">
+                          <span className="text-xs font-mono text-indigo-600">{item.year}</span>
+                          <h3 className="font-bold text-slate-900">{item.title}</h3>
+                        </div>
+                        <p className="text-sm text-slate-600 leading-relaxed">{item.desc}</p>
+                      </div>
                     </div>
-                  </div>
-                </AnimatedSection>
+                  </AnimatedSection>
+                </li>
               ))}
-            </div>
+            </ol>
           </div>
         </div>
       </section>
 
       {/* STATS */}
       <section className="bg-slate-900 py-16 px-4">
-        <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
-          <StatCounter value={33000} suffix="+" label="kinderen begeleid" />
-          <StatCounter value={9300} suffix="+" label="zelfgebouwde robots" />
-          <StatCounter value={150} label="partnerscholen" />
+        <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-8">
+          <StatCounter value={12000} suffix="+" label="leerlingen bereikt" />
+          <StatCounter value={33000} suffix="+" label="robots gebouwd" />
           <StatCounter value={10} suffix="+" label="jaar ervaring" />
-        </div>
-      </section>
-
-      {/* TEAM */}
-      <section className="py-16 px-4">
-        <div className="max-w-5xl mx-auto">
-          <AnimatedSection>
-            <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-4" style={{ fontFamily: "var(--font-plus-jakarta-sans)" }}>
-              Ons team
-            </h2>
-            <p className="text-slate-600 mb-8 leading-relaxed">
-              Ons team bestaat uit gepassioneerde coaches met achtergronden in techniek, onderwijs, pedagogiek en design. Allen getraind in de LEA Methode en gecertificeerd voor de betreffende leeftijdsgroepen.
-            </p>
-          </AnimatedSection>
-          <div className="grid md:grid-cols-3 gap-6">
-            {[
-              { role: "STEM Coach (3-9 jaar)", desc: "Gespecialiseerd in kleuteronderwijs en early childhood STEM. Montessori gecertificeerd." },
-              { role: "Technologie Instructeur", desc: "Achtergrond in informatica en didactiek. Gespecialiseerd in programmeren voor 9-17 jaar." },
-              { role: "Talentanalyse Specialist", desc: "Pedagogiek en ontwikkelingspsychologie. Verantwoordelijk voor de observatie en rapportage." },
-            ].map((member, i) => (
-              <AnimatedSection key={i} delay={i * 0.05}>
-                <div className="bg-white rounded-xl border border-slate-100 p-5 shadow-sm">
-                  <div className="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mb-4">
-                    <span className="text-indigo-600 text-2xl">👤</span>
-                  </div>
-                  <p className="font-bold text-slate-900 mb-1">{member.role}</p>
-                  <p className="text-sm text-slate-600">{member.desc}</p>
-                </div>
-              </AnimatedSection>
-            ))}
-          </div>
-          <AnimatedSection>
-            <p className="text-center text-slate-500 text-sm mt-6 italic">
-              Ons team groeit — binnenkort stellen wij ons persoonlijk voor op deze pagina.
-            </p>
-          </AnimatedSection>
+          <StatCounter value={150} suffix="+" label="scholen" />
+          <StatCounter value={12} suffix="+" label="landen" />
+          <StatCounter value={40} label="locaties in Nederland" />
         </div>
       </section>
 

@@ -41,7 +41,7 @@ const projects = [
 
 Centraal staat de vraag: welke pedagogische aanpak leidt tot de beste cognitieve uitkomsten voor jonge kinderen bij het leren van informatisch denken? Zes landen, zes verschillende onderwijssystemen, één gedeeld doel: aantonen dat vroeg programmeeronderwijs van fundamentele waarde is voor de brede ontwikkeling van kinderen.
 
-Little Engineers Academy draagt bij met de praktijkervaring van meer dan 33.000 kinderen en 295.000+ observatiepunten. Onze talentanalysemethode is mede gevalideerd in dit Europees kader.`,
+Little Engineers Academy draagt bij met de praktijkervaring van meer dan 12.000 leerlingen en 295.000+ observatiepunten. Onze talentanalysemethode is mede gevalideerd in dit Europees kader.`,
   },
   {
     icon: BookOpen,

@@ -41,9 +41,15 @@ export default function MethodePage() {
             <h1 className="text-4xl md:text-6xl font-extrabold text-slate-900 tracking-tight mb-4" style={{ fontFamily: "var(--font-plus-jakarta-sans)" }}>
               De LEA Methode:<br />Ontdekken, Maken, Meesteren
             </h1>
-            <p className="text-lg text-slate-600 max-w-2xl leading-relaxed">
-              Onze methode is geen trucje of een marketingconcept. Het is een doordachte, wetenschappelijk onderbouwde aanpak die is ontwikkeld over 10 jaar praktijkervaring met meer dan 33.000 kinderen.
+            <p className="text-lg text-slate-600 max-w-2xl leading-relaxed mb-6">
+              Onze methode is geen trucje of een marketingconcept. Het is een doordachte, wetenschappelijk onderbouwde aanpak die is ontwikkeld over 10 jaar praktijkervaring met meer dan 12.000 leerlingen.
             </p>
+            <blockquote
+              cite="https://littleengineersacademy.com"
+              className="text-xl md:text-2xl font-bold italic text-indigo-600 max-w-2xl border-l-4 border-indigo-600 pl-6"
+            >
+              &ldquo;In een wereld vol schermen leren kinderen bij ons weer met hun handen denken.&rdquo;
+            </blockquote>
           </AnimatedSection>
         </div>
       </section>

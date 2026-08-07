@@ -84,7 +84,7 @@ export default function VoorGemeentenPage() {
               LEA werkt met gemeenten in de Brainport-regio en daarbuiten om
               toegankelijk, hoogwaardig techniekonderwijs te brengen naar elk
               kind — ongeacht achtergrond, wijk of inkomen. Met bewezen
-              programma&apos;s, 10.000+ afgestudeerde leerlingen en internationale
+              programma&apos;s, 12.000+ leerlingen bereikt en internationale
               Erasmus+-erkenning.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -204,6 +204,12 @@ export default function VoorGemeentenPage() {
                 Jeugdwerkgelegenheid & talentontwikkeling
               </h2>
             </div>
+            <blockquote
+              cite="https://littleengineersacademy.com"
+              className="text-xl md:text-2xl font-bold italic text-emerald-700 border-l-4 border-emerald-600 pl-6 mb-10 max-w-3xl"
+            >
+              &ldquo;Wij bereiden kinderen niet voor op de toets van morgen, maar op de wereld van morgen.&rdquo;
+            </blockquote>
             <div className="grid lg:grid-cols-2 gap-12">
               <div>
                 <p className="text-slate-600 leading-relaxed mb-4">
@@ -215,7 +221,7 @@ export default function VoorGemeentenPage() {
                   economie.
                 </p>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Van onze meer dan 10.000 afgestudeerde leerlingen werkt een
+                  Van onze meer dan 12.000 leerlingen werkt een
                   significant deel nu in technische beroepen — als ingenieur,
                   programmeur, ontwerper of innovator. Enkelen hebben hun eigen
                   bedrijf gestart. Wij geloven dat dit niet toeval is, maar het
