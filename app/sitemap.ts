@@ -46,6 +46,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "breda",
     "helmond",
     "s-hertogenbosch",
+    "veldhoven",
+    "best",
+    "nuenen",
+    "geldrop-mierlo",
+    "waalre",
+    "son-en-breugel",
+    "valkenswaard",
+    "bergeijk",
   ];
 
   const city_pages = cities.map((slug) => ({

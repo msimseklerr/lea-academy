@@ -2,7 +2,7 @@
 
 Bu 3 sorunu sırayla, onay sormadan, tek seferde çöz. Her adımda gerçekten test et (sadece kod yazıp geçme, çalıştığından emin ol).
 
----
+\---
 
 ## SORUN 1 — next.config.ts YouTube görsel hatası
 
@@ -17,9 +17,9 @@ next.config.ts dosyasını aç, `images.remotePatterns` array'ine şunu ekle (me
 },
 ```
 
-Ekledikten sonra dev server'ı yeniden başlat (next.config değişikliği hot-reload ile algılanmaz, restart gerekir) ve /hoe-maak-je-het sayfasının artık hatasız açıldığını doğrula. Ayrıca `maxresdefault.jpg` bazı eski/düşük çözünürlüklü videolarda mevcut olmayabilir (404 dönebilir) — her 10 video için gerçekten yükleniyor mu kontrol et, yüklenmeyenler için `hqdefault.jpg` fallback'ine geç (bu her zaman mevcuttur): `https://img.youtube.com/vi/VIDEO_ID/hqdefault.jpg`.
+Ekledikten sonra dev server'ı yeniden başlat (next.config değişikliği hot-reload ile algılanmaz, restart gerekir) ve /hoe-maak-je-het sayfasının artık hatasız açıldığını doğrula. Ayrıca `maxresdefault.jpg` bazı eski/düşük çözünürlüklü videolarda mevcut olmayabilir (404 dönebilir) — her 10 video için gerçekten yükleniyor mu kontrol et, yüklenmeyenler için `hqdefault.jpg` fallback'ine geç (bu her zaman mevcuttur): `https://img.youtube.com/vi/VIDEO\\\_ID/hqdefault.jpg`.
 
----
+\---
 
 ## SORUN 2 — Yeni sayfalara site içinden ulaşılamıyor
 
@@ -27,31 +27,34 @@ Ekledikten sonra dev server'ı yeniden başlat (next.config değişikliği hot-r
 
 1. components/Navbar.tsx (veya proje içindeki gerçek dosya adı neyse) dosyasını aç, mevcut menü linklerini incele
 2. Navbar'a şu linkleri ekle (kalabalık olacaksa dropdown/mega-menu kullan):
-   - Galerij → /galerij
-   - Hoe Maak Je Het → /hoe-maak-je-het
-   - Talentanalyse → /talentanalyse (varsa zaten kontrol et)
-   - "Voor Organisaties" dropdown altında: Voor Scholen (/voor-scholen), Voor Gemeenten (/voor-gemeenten), EU-projecten (/eu-projecten), Sociale Impact (/sociale-impact)
+
+   * Galerij → /galerij
+   * Hoe Maak Je Het → /hoe-maak-je-het
+   * Talentanalyse → /talentanalyse (varsa zaten kontrol et)
+   * "Voor Organisaties" dropdown altında: Voor Scholen (/voor-scholen), Voor Gemeenten (/voor-gemeenten), EU-projecten (/eu-projecten), Sociale Impact (/sociale-impact)
 3. Footer'ı da aç, aynı sayfaların linklerini footer'daki uygun kolona (Kennisbank/Academie/Programma's gibi) ekle
 4. app/sitemap.ts dosyasını aç, TÜM route'ların (yeni eklenenler dahil) sitemap'te olduğunu doğrula, eksikse ekle
 5. Projede kaç tane app/(routes)/.../page.tsx dosyası varsa, HER BİRİNİN navbar'dan VEYA footer'dan VEYA bir hub sayfasından en az bir tıklamayla erişilebilir olduğunu tek tek kontrol et. Erişilemeyen (orphan) sayfa kalmasın.
 
----
+\---
 
 ## SORUN 3 — Makale sayısı hâlâ 6, uzunluk hâlâ kısa
 
 Önceki brief'lerde 24'e sonra 30'a çıkarılması istenen kennisbank makale sayısı hâlâ 6'da kalmış ve makaleler kısa. Bu işi şimdi gerçekten tamamla, yarım bırakma.
 
 Kesin hedef:
-- Toplam 30 makale, content/kennisbank/ (veya projede makalelerin tutulduğu gerçek klasör) altında
-- Her makale 2000-2800 kelime arası (kelime sayısını gerçekten kontrol et, "yeterince uzun görünüyor" diye geçme — yazdıktan sonra kelime say)
-- Her makale şu zorunlu iskelete sahip olacak:
-  - Giriş: 60-80 kelimelik direkt cevap paragrafı
-  - 6-9 H2 alt başlık, soru formatında, her biri 250-400 kelime
-  - En az 2 HTML tablo
-  - En az 1 numaralı liste/checklist
-  - "Wat wij bij LEA zien" pratik gözlem kutusu (150-200 kelime)
-  - 5-6 SSS (FAQ) + FAQPage schema
-  - "Verder lezen" bölümü: 3 iç link
+
+* Toplam 30 makale, content/kennisbank/ (veya projede makalelerin tutulduğu gerçek klasör) altında
+* Her makale 2000-2800 kelime arası (kelime sayısını gerçekten kontrol et, "yeterince uzun görünüyor" diye geçme — yazdıktan sonra kelime say)
+* Her makale şu zorunlu iskelete sahip olacak:
+
+  * Giriş: 60-80 kelimelik direkt cevap paragrafı
+  * 6-9 H2 alt başlık, soru formatında, her biri 250-400 kelime
+  * En az 2 HTML tablo
+  * En az 1 numaralı liste/checklist
+  * "Wat wij bij LEA zien" pratik gözlem kutusu (150-200 kelime)
+  * 5-6 SSS (FAQ) + FAQPage schema
+  * "Verder lezen" bölümü: 3 iç link
 
 Konu listesi (mevcut 6 tanesini uzat, eksik olan 24 tanesini sıfırdan yaz):
 
@@ -90,7 +93,7 @@ Anahtar kelime havuzu (her makalede konusuna uygun 10-15 terim doğal biçimde k
 
 Bu işi gerçekten bitir: 30 dosya, her biri gerçekten 2000+ kelime, hepsi /kennisbank hub sayfasından linkli, hepsi kendi route'unda çalışır durumda.
 
----
+\---
 
 ## SIRALAMA
 
@@ -99,13 +102,17 @@ Bu işi gerçekten bitir: 30 dosya, her biri gerçekten 2000+ kelime, hepsi /ken
 3. Sorun 3 (30 makale, 2000+ kelime) — en uzun sürecek, en sona bırak ama MUTLAKA bitir, yarım bırakma
 
 En sonda:
+
 ```
 npm run build
 ```
+
 çalıştır, hatasız geçtiğinden emin ol. Sonra `npm run dev` başlat.
 
 Bana şunları raporla:
-- next.config.ts düzeltmesi sonrası /hoe-maak-je-het sayfasının tüm 10 görselinin gerçekten yüklendiğini doğruladın mı
-- Navbar/footer'a eklenen tüm yeni linklerin listesi
-- Yazılan toplam makale sayısı ve her birinin gerçek kelime sayısı (liste halinde)
-- Kontrol etmem gereken URL listesi
+
+* next.config.ts düzeltmesi sonrası /hoe-maak-je-het sayfasının tüm 10 görselinin gerçekten yüklendiğini doğruladın mı
+* Navbar/footer'a eklenen tüm yeni linklerin listesi
+* Yazılan toplam makale sayısı ve her birinin gerçek kelime sayısı (liste halinde)
+* Kontrol etmem gereken URL listesi
+

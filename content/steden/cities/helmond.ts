@@ -18,7 +18,7 @@ const city: CityData = {
     body: "Ouders in Helmond die op zoek zijn naar STEM-, codeer- of roboticalessen komen doorgaans een aantal categorieën aanbod tegen. De eerste categorie bestaat uit online platforms en apps waarmee een kind thuis, achter een scherm, zelfstandig leert programmeren via modules. Dit is flexibel qua tijd en plaats, maar mist de tastbare ervaring en de sociale component van samen bouwen en overleggen.\n\nDe tweede categorie zijn kant-en-klare bouw- en technieksets: dozen met onderdelen voor bijvoorbeeld een robotarm of elektronicaproject, compleet met stappenplan. Zulke sets zijn eerlijk gezegd prima ontworpen voor thuisgebruik: een kind kan er, eventueel met wat hulp, zelfstandig mee aan de slag zonder professionele begeleiding nodig te hebben.\n\nDe derde categorie zijn losse workshops of eenmalige activiteiten, bijvoorbeeld tijdens een schoolvakantie of op een evenement in de stad. Deze geven een laagdrempelige eerste kennismaking met techniek, maar bieden door hun eenmalige karakter geen opbouw over langere tijd.\n\nDe vierde categorie zijn structurele technieklabs en academies waar kinderen wekelijks of periodiek onder begeleiding aan technische projecten werken. Dit is doorgaans de meest intensieve vorm, met zowel begeleiding, sociale interactie als een opbouwende leerlijn. Binnen deze categorie bestaan grote onderlinge verschillen: sommige aanbieders werken met kant-en-klare lespakketten van externe leveranciers, terwijl andere hun curriculum volledig zelf ontwikkelen. Dat verschil is voor ouders vaak niet direct zichtbaar, maar wel bepalend voor hoeveel originaliteit en maatwerk een kind daadwerkelijk krijgt.\n\nLittle Engineers Academy heeft geen eigen vestiging in Helmond, maar ligt met de hoofdlocatie in Eindhoven vlakbij, in dezelfde Brainport-regio, op slechts een kleine reisafstand. Daarnaast is LEA in Helmond actief via programma's voor scholen en gemeenten die het STEM-aanbod voor hun leerlingen willen versterken. Daarmee combineert LEA de diepgang van een gestructureerde academie met een aantal elementen die u bij geen van bovenstaande opties terugvindt, zoals hierna wordt toegelicht.",
   },
   whyLeaIntro:
-    "Helmond is de stad van de Automotive Campus, van smart mobility en van een lange industriële traditie die teruggaat tot de negentiende-eeuwse ijzergieterijen. Diezelfde combinatie van techniek, precisie en vernieuwing vormt precies de kern van hoe Little Engineers Academy kinderen engineering leert. Hieronder leest u wat LEA werkelijk onderscheidt, ook zonder eigen vestiging in Helmond zelf.",
+    "Helmond is de stad van de Automotive Campus, van smart mobility en van een lange industriële traditie die teruggaat tot de negentiende-eeuwse ijzergieterijen. Diezelfde combinatie van techniek, precisie en vernieuwing vormt precies de kern van hoe Little Engineers Academy kinderen engineering leert. Geen kant-en-klare Lego, laptops of standaardsoftware — bij LEA leren kinderen met échte robots en echte materialen. Hieronder leest u wat LEA werkelijk onderscheidt, ook zonder eigen vestiging in Helmond zelf.",
   whyLeaPoints: [
     {
       title: "Drie pijlers in één programma: techniek, talentontdekking en creatie",
@@ -47,6 +47,10 @@ const city: CityData = {
     {
       title: "Het verschil met een kant-en-klare bouwset thuis",
       desc: "Een kant-en-klare techniekset is een prima manier om thuis, zelfstandig, een middag met techniek bezig te zijn — dat is inherent aan hoe zulke sets zijn ontworpen. Wat zo'n set niet biedt, is de combinatie die LEA wél biedt: begeleiding door echte vakexperts, originele technische uitdagingen die nergens anders bestaan, échte engineering-ervaring met tastbare, zelfontworpen creaties, en een wetenschappelijk onderbouwd talentrapport waarmee ouders precies zien hoe hun kind zich ontwikkelt.",
+    },
+    {
+      title: "Originele materialen in plaats van standaard Lego-sets",
+      desc: "Veel technieklessen in de regio werken met dezelfde kant-en-klare Lego-dozen, laptops of standaardsoftware die elke aanbieder zomaar kan bestellen. LEA ontwikkelt haar eigen, originele materialen en laat kinderen werken met échte robots in plaats van een generieke set die net zo goed thuis in de kast ligt. Voor kinderen in een automotive-stad als Helmond is dat verschil betekenisvol: ze leren zelf materiaal kiezen, ontwerpen en produceren, zoals een echte engineer dat doet, in plaats van alleen een stappenplan te volgen.",
     },
   ],
   whyLeaClosing:
@@ -80,6 +84,11 @@ const city: CityData = {
       question: "Vanaf welke leeftijd kunnen kinderen uit Helmond meedoen aan LEA-programma's?",
       answer:
         "LEA richt zich op kinderen van 3 tot 17 jaar, met per leeftijdsgroep aangepaste workshops en moeilijkheidsgraad. Jongere kinderen maken via onderzoekend spel en eenvoudige bouwuitdagingen kennis met techniek, terwijl tieners aan complexere, meerdere weken durende engineering-projecten werken.",
+    },
+    {
+      question: "Gebruiken jullie Lego?",
+      answer:
+        "Nee. LEA werkt bewust niet met kant-en-klare Lego-sets, laptops of standaardsoftware. Kinderen leren met échte robots en originele, zelf ontwikkelde materialen, waarmee ze net als een engineer zelf ontwerpen, bouwen en produceren in plaats van een vooraf bepaald stappenplan te volgen.",
     },
     {
       question: "Waarom past de aanpak van LEA goed bij een stad als Helmond?",

@@ -232,14 +232,22 @@ export default function Footer() {
           <div className="flex flex-wrap gap-x-4 gap-y-2 text-sm">
             {[
               { href: "/steden/eindhoven", label: "Eindhoven" },
+              { href: "/steden/veldhoven", label: "Veldhoven" },
+              { href: "/steden/helmond", label: "Helmond" },
               { href: "/steden/eersel", label: "Eersel" },
+              { href: "/steden/best", label: "Best" },
+              { href: "/steden/nuenen", label: "Nuenen" },
+              { href: "/steden/geldrop-mierlo", label: "Geldrop-Mierlo" },
+              { href: "/steden/waalre", label: "Waalre" },
+              { href: "/steden/son-en-breugel", label: "Son en Breugel" },
+              { href: "/steden/valkenswaard", label: "Valkenswaard" },
+              { href: "/steden/bergeijk", label: "Bergeijk" },
               { href: "/steden/amsterdam", label: "Amsterdam" },
               { href: "/steden/rotterdam", label: "Rotterdam" },
               { href: "/steden/den-haag", label: "Den Haag" },
               { href: "/steden/utrecht", label: "Utrecht" },
               { href: "/steden/tilburg", label: "Tilburg" },
               { href: "/steden/breda", label: "Breda" },
-              { href: "/steden/helmond", label: "Helmond" },
               { href: "/steden/s-hertogenbosch", label: "'s-Hertogenbosch" },
               { href: "/steden", label: "Alle steden →" },
             ].map((s) => (

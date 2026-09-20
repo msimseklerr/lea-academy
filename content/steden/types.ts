@@ -8,7 +8,15 @@ export type CitySlug =
   | "tilburg"
   | "breda"
   | "helmond"
-  | "s-hertogenbosch";
+  | "s-hertogenbosch"
+  | "veldhoven"
+  | "best"
+  | "nuenen"
+  | "geldrop-mierlo"
+  | "waalre"
+  | "son-en-breugel"
+  | "valkenswaard"
+  | "bergeijk";
 
 export interface CityFAQ {
   question: string;

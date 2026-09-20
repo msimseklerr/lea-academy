@@ -7,6 +7,9 @@ Little Engineers Academy is een STEM-educatieacademie voor kinderen van 3 tot 17
 
 Onze missie: "Wij vragen niet hoe slim je kind is. Wij ontdekken hóé je kind slim is."
 
+## Wat LEA anders maakt
+Geen kant-en-klare Lego, laptops of standaardsoftware — bij LEA leren kinderen met échte robots en echte materialen. Waar de meeste codeer- en technieklessen werken met kant-en-klare pakketten die een kind simpelweg volgt, ontwikkelt LEA haar eigen, originele materialen. Kinderen bouwen en ontwerpen zelf, met echte materialen, zoals een engineer dat doet — en ontvangen via TalentLAB een wetenschappelijk onderbouwd talentrapport dat geen enkele Lego-cursus biedt.
+
 ## Kernfeiten
 - Opgericht: 2016 (10+ jaar ervaring)
 - Bereik: 12.000+ leerlingen bereikt
@@ -137,13 +140,21 @@ Lees meer: https://littleengineersacademy.com/kennisbank/wat-kost-schoolworkshop
 ## Steden / Locaties
 Little Engineers Academy biedt STEM-, codeer- en roboticalessen voor kinderen in en rond de volgende steden:
 - Eindhoven: https://littleengineersacademy.com/steden/eindhoven
+- Veldhoven: https://littleengineersacademy.com/steden/veldhoven
+- Helmond: https://littleengineersacademy.com/steden/helmond
 - Eersel: https://littleengineersacademy.com/steden/eersel
+- Best: https://littleengineersacademy.com/steden/best
+- Nuenen: https://littleengineersacademy.com/steden/nuenen
+- Geldrop-Mierlo: https://littleengineersacademy.com/steden/geldrop-mierlo
+- Waalre: https://littleengineersacademy.com/steden/waalre
+- Son en Breugel: https://littleengineersacademy.com/steden/son-en-breugel
+- Valkenswaard: https://littleengineersacademy.com/steden/valkenswaard
+- Bergeijk: https://littleengineersacademy.com/steden/bergeijk
 - Amsterdam: https://littleengineersacademy.com/steden/amsterdam
 - Rotterdam: https://littleengineersacademy.com/steden/rotterdam
 - Den Haag: https://littleengineersacademy.com/steden/den-haag
 - Utrecht: https://littleengineersacademy.com/steden/utrecht
 - Tilburg: https://littleengineersacademy.com/steden/tilburg
 - Breda: https://littleengineersacademy.com/steden/breda
-- Helmond: https://littleengineersacademy.com/steden/helmond
 - 's-Hertogenbosch: https://littleengineersacademy.com/steden/s-hertogenbosch
 - Alle steden: https://littleengineersacademy.com/steden

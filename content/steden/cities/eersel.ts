@@ -23,7 +23,7 @@ const city: CityData = {
     body: "Ouders in Eersel die op zoek zijn naar STEM-, codeer- of roboticalessen voor hun kind komen doorgaans een aantal categorieën tegen. De eerste categorie bestaat uit online platforms en apps waarmee kinderen thuis, achter een scherm, leren programmeren via zelfstandige modules. Deze zijn flexibel en overal beschikbaar, ook in een kleinere gemeente zonder veel lokaal aanbod, maar missen de tastbare ervaring en de sociale component van samen bouwen en overleggen.\n\nDe tweede categorie zijn kant-en-klare bouw- en technieksets: dozen met onderdelen voor bijvoorbeeld een robotarm, een knikkerbaan of een elektronicaproject, compleet met stappenplan. Zulke sets zijn eerlijk gezegd prima ontworpen om zonder professionele begeleider thuis te gebruiken, precies zoals bedoeld, en vormen voor veel gezinnen in Eersel een leuke manier om op een regenachtige middag met techniek bezig te zijn.\n\nDe derde categorie zijn losse workshops of eenmalige activiteiten, bijvoorbeeld tijdens een schoolvakantie of op een lokaal evenement in de regio. Deze bieden een laagdrempelige eerste kennismaking, maar door hun eenmalige karakter geen opbouw of langetermijnontwikkeling.\n\nDe vierde categorie zijn fysieke academies en technieklabs waar kinderen structureel, wekelijks of periodiek, onder begeleiding werken aan technische projecten. Dit is doorgaans de meest effectieve vorm, juist omdat kinderen hier begeleiding, sociale interactie en een opbouwende leerlijn combineren. Binnen deze categorie bestaan wel grote verschillen: sommige aanbieders werken met kant-en-klare lespakketten van externe leveranciers, terwijl andere hun volledige curriculum zelf ontwikkelen. Voor een kleinere gemeente als Eersel geldt bovendien dat het al bijzonder is wanneer zo'n fysieke academie daadwerkelijk ter plaatse gevestigd is, in plaats van dat gezinnen daarvoor altijd naar de stad moeten uitwijken.\n\nDeze categorieën sluiten elkaar niet per se uit: veel gezinnen in en rond Eersel combineren bijvoorbeeld een techniekset thuis met een wekelijkse les bij een academie in het dorp zelf. Little Engineers Academy heeft in Eersel een eigen fysieke locatie en combineert de aanpak van een structurele academie met een aantal elementen die u bij geen enkele andere optie, in de gemeente of daarbuiten, terugvindt.",
   },
   whyLeaIntro:
-    "Dat Little Engineers Academy een eigen locatie heeft in een gemeente als Eersel, is geen toeval. In De Kempen hechten gezinnen aan een kleinschalige, vertrouwde omgeving waarin een kind gezien wordt, en tegelijk aan de nabijheid van de kansen die de Brainport-regio Eindhoven te bieden heeft. LEA brengt beide werelden samen: de rust en persoonlijke aandacht van een dorpse setting, gecombineerd met een technisch niveau dat niet onderdoet voor wat de stad te bieden heeft. Hieronder leest u wat LEA in Eersel werkelijk onderscheidt van ander aanbod.",
+    "Dat Little Engineers Academy een eigen locatie heeft in een gemeente als Eersel, is geen toeval. In De Kempen hechten gezinnen aan een kleinschalige, vertrouwde omgeving waarin een kind gezien wordt, en tegelijk aan de nabijheid van de kansen die de Brainport-regio Eindhoven te bieden heeft. LEA brengt beide werelden samen: de rust en persoonlijke aandacht van een dorpse setting, gecombineerd met een technisch niveau dat niet onderdoet voor wat de stad te bieden heeft. Geen kant-en-klare Lego, laptops of standaardsoftware — bij LEA leren kinderen met échte robots en echte materialen. Hieronder leest u wat LEA in Eersel werkelijk onderscheidt van ander aanbod.",
   whyLeaPoints: [
     {
       title: "Drie pijlers in één programma: techniek, talentontdekking en creatie",
@@ -52,6 +52,10 @@ const city: CityData = {
     {
       title: "Het verschil met een kant-en-klare bouwset thuis",
       desc: "Een kant-en-klare techniekset is een prima manier om thuis, zelfstandig, een middag met techniek bezig te zijn — dat is precies waarvoor zo'n set is ontworpen. Wat zo'n set niet biedt, is de combinatie die LEA in Eersel wél biedt: begeleiding door echte vakexperts, originele technische uitdagingen die nergens anders bestaan, échte engineering-ervaring met tastbare, zelfontworpen creaties, en een wetenschappelijk onderbouwd talentrapport waarmee ouders precies zien hoe hun kind zich ontwikkelt. Die combinatie van expertise, originaliteit, echte ervaring en wetenschappelijke onderbouwing vindt u nergens anders in de gemeente of directe omgeving.",
+    },
+    {
+      title: "Originele materialen in plaats van standaard Lego-sets",
+      desc: "Ook in Eersel geldt: veel technieklessen werken met dezelfde kant-en-klare Lego-dozen, laptops of standaardsoftware die overal verkrijgbaar zijn. LEA ontwikkelt haar eigen, originele materialen en laat kinderen werken met échte robots in plaats van een generieke set die net zo goed thuis in de kast ligt. Zo leert een kind in Eersel net als een engineer zelf materiaal kiezen, ontwerpen en produceren, in plaats van alleen een stappenplan te volgen.",
     },
   ],
   whyLeaClosing:
@@ -90,6 +94,11 @@ const city: CityData = {
       question: "Kan ik zelf technieksets of bouwpakketten kopen in plaats van lessen te volgen?",
       answer:
         "Dat kan zeker; kant-en-klare technieksets zijn specifiek ontworpen voor thuisgebruik en een kind kan hier vaak zelfstandig mee aan de slag. Bij Little Engineers Academy in Eersel krijgt uw kind echter iets wat zo'n set niet biedt: begeleiding door echte engineers en pedagogen, honderden originele uitdagingen die nergens anders bestaan, en na verloop van tijd een wetenschappelijk onderbouwd talentprofiel.",
+    },
+    {
+      question: "Gebruiken jullie Lego?",
+      answer:
+        "Nee. LEA werkt bewust niet met kant-en-klare Lego-sets, laptops of standaardsoftware. Kinderen in Eersel leren met échte robots en originele, zelf ontwikkelde materialen, waarmee ze net als een engineer zelf ontwerpen, bouwen en produceren in plaats van een vooraf bepaald stappenplan te volgen.",
     },
   ],
 };

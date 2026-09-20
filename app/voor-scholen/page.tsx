@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { School, Building2, Landmark, Check, Rabbit, ScrollText, Wind, MessageCircle, BookOpen, ArrowRight } from "lucide-react";
+import { School, Building2, Landmark, Check, Rabbit, ScrollText, Wind, MessageCircle, BookOpen, ArrowRight, Wrench, Bot, Brain } from "lucide-react";
 import AnimatedSection from "@/components/AnimatedSection";
 import CTASection from "@/components/CTASection";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -47,6 +47,11 @@ const faqItems = [
     answer:
       "Ja. Bij biologie bouwen leerlingen bijvoorbeeld dieren-animaties of bewegende diervormen; bij geschiedenis bouwen we Leonardo da Vinci's mechanische leeuw of de stoomaangedreven deuren van Heron van Alexandrië; bij aardrijkskunde en Nederlandse cultuur bouwen we werkende windmolens.",
   },
+  {
+    question: "Werken jullie met kant-en-klare Lego-pakketten of standaardsoftware?",
+    answer:
+      "Nee. Wij leveren geen standaardpakket — wij ontwikkelen onze eigen, originele materialen en laten leerlingen werken met échte robots in plaats van kant-en-klare Lego-sets, laptops of standaardsoftware. Zo ontwikkelen leerlingen productievaardigheden met echte materialen, afgestemd op uw lesstof, in plaats van simpelweg een stappenplan te volgen.",
+  },
 ];
 
 export default function VoorScholenPage() {
@@ -79,6 +84,68 @@ export default function VoorScholenPage() {
               Little Engineers Academy werkt samen met 150+ scholen en BSO&apos;s in de regio Eindhoven en De Kempen. Wij brengen STEM-onderwijs rechtstreeks naar uw locatie, volledig op maat van uw doelgroep.
             </p>
           </AnimatedSection>
+        </div>
+      </section>
+
+      {/* WAAROM SCHOLEN VOOR LEA KIEZEN */}
+      <section className="py-16 px-4 bg-slate-900 text-white">
+        <div className="max-w-7xl mx-auto">
+          <AnimatedSection>
+            <p className="text-sm font-semibold uppercase tracking-widest text-indigo-300 mb-3">Het verschil met standaardaanbieders</p>
+            <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-4" style={{ fontFamily: "var(--font-plus-jakarta-sans)" }}>
+              Waarom scholen voor LEA kiezen
+            </h2>
+            <p className="text-slate-300 max-w-3xl leading-relaxed mb-2">
+              Veel aanbieders van techniekonderwijs werken met kant-en-klare Lego-pakketten, laptops of standaardsoftware die elke school kan bestellen. Little Engineers Academy doet het anders.
+            </p>
+            <p className="text-lg font-semibold text-white max-w-3xl leading-relaxed mb-10">
+              Wij leveren geen standaardpakket — wij ontwikkelen productievaardigheden met echte materialen, afgestemd op uw lesstof.
+            </p>
+          </AnimatedSection>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              {
+                icon: Wrench,
+                title: "Originele materialen",
+                desc: "Onze workshops zijn zelf ontwikkeld, niet ingekocht als kant-en-klaar lespakket. Leerlingen werken met materialen die nergens anders te vinden zijn.",
+              },
+              {
+                icon: Bot,
+                title: "Échte robots",
+                desc: "Leerlingen bouwen en programmeren werkende robots en mechanismen — geen vooraf bepaald stappenplan, maar een open ontwerpopdracht zoals een echte engineer die kent.",
+              },
+              {
+                icon: Check,
+                title: "80% schermvrij",
+                desc: "Het merendeel van elke workshop draait om tastbaar, hands-on werk met de handen in plaats van tijd achter een tablet of laptop.",
+              },
+              {
+                icon: School,
+                title: "Expertteam",
+                desc: "Onze begeleiders zijn engineers, kunstenaars en pedagogen — geen algemene activiteitenbegeleiders — die technische diepgang combineren met pedagogische vaardigheid.",
+              },
+              {
+                icon: Brain,
+                title: "Wetenschappelijke talentanalyse",
+                desc: "Met TalentLAB, onze analyse op 70 parameters, geven wij scholen inzicht in de talenten van leerlingen dat geen enkele standaardworkshop biedt.",
+              },
+              {
+                icon: BookOpen,
+                title: "Volledig op maat van uw curriculum",
+                desc: "Elke workshop wordt afgestemd op uw lesstof en kerndoelen — de workshop past zich aan uw school aan, niet andersom.",
+              },
+            ].map((item, i) => (
+              <AnimatedSection key={item.title} delay={i * 0.05}>
+                <div className="bg-white/5 border border-white/10 rounded-2xl p-6 h-full">
+                  <div className="w-11 h-11 bg-indigo-500/20 rounded-xl flex items-center justify-center mb-4">
+                    <item.icon size={20} className="text-indigo-300" />
+                  </div>
+                  <h3 className="font-bold mb-2">{item.title}</h3>
+                  <p className="text-sm text-slate-300 leading-relaxed">{item.desc}</p>
+                </div>
+              </AnimatedSection>
+            ))}
+          </div>
         </div>
       </section>
 
