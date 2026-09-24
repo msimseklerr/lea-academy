@@ -10,7 +10,6 @@ type NavItem =
 const navItems: NavItem[] = [
   { type: "link", href: "/programmas", label: "Programma's" },
   { type: "link", href: "/talentanalyse", label: "TalentLAB" },
-  { type: "link", href: "/steden", label: "Steden" },
   {
     type: "dropdown",
     label: "Kennis & Inspiratie",

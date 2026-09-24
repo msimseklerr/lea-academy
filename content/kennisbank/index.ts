@@ -42,6 +42,7 @@ import wtCurriculumExternePartners from "./articles/wt-curriculum-externe-partne
 import schermvrijLerenOpSchool from "./articles/schermvrij-leren-op-school";
 import creativiteitEnTechniekKlas from "./articles/creativiteit-en-techniek-klas";
 import watKostSchoolworkshop from "./articles/wat-kost-schoolworkshop";
+import waaromLeaAndersIs from "./articles/waarom-lea-anders-is";
 
 export const articles: Record<ArticleSlug, Article> = {
   "welke-leeftijd-leren-programmeren": welkeLeeftijdLerenProgrammeren,
@@ -86,6 +87,7 @@ export const articles: Record<ArticleSlug, Article> = {
   "schermvrij-leren-op-school": schermvrijLerenOpSchool,
   "creativiteit-en-techniek-klas": creativiteitEnTechniekKlas,
   "wat-kost-schoolworkshop": watKostSchoolworkshop,
+  "waarom-lea-anders-is": waaromLeaAndersIs,
 };
 
 export const articleList: Article[] = Object.values(articles);

@@ -29,6 +29,7 @@ const categoryColors: Record<string, string> = {
   Toekomstvaardigheden: "bg-purple-100 text-purple-700",
   Praktisch: "bg-cyan-100 text-cyan-700",
   "Voor scholen": "bg-fuchsia-100 text-fuchsia-700",
+  "Onze filosofie": "bg-indigo-100 text-indigo-700",
 };
 
 export default function KennisbankPage() {

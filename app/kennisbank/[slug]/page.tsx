@@ -69,8 +69,8 @@ export default async function KennisbankArticlePage({
       name: "Little Engineers Academy",
       url: "https://littleengineersacademy.com",
     },
-    datePublished: "2026-07-01",
-    dateModified: "2026-07-15",
+    datePublished: article.datePublished ?? "2026-07-01",
+    dateModified: article.dateModified ?? "2026-07-15",
     mainEntityOfPage: { "@type": "WebPage", "@id": articleUrl },
     speakable: {
       "@type": "SpeakableSpecification",
@@ -78,15 +78,17 @@ export default async function KennisbankArticlePage({
     },
   };
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: article.faqs.map((f) => ({
-      "@type": "Question",
-      name: f.question,
-      acceptedAnswer: { "@type": "Answer", text: f.answer },
-    })),
-  };
+  const faqSchema = article.faqs?.length
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: article.faqs.map((f) => ({
+          "@type": "Question",
+          name: f.question,
+          acceptedAnswer: { "@type": "Answer", text: f.answer },
+        })),
+      }
+    : null;
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -103,7 +105,9 @@ export default async function KennisbankArticlePage({
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      {faqSchema && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      )}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <article className="max-w-4xl mx-auto px-4 py-12">
@@ -146,12 +150,17 @@ export default async function KennisbankArticlePage({
                   {section.heading}
                 </h2>
                 <p className="text-slate-600 leading-relaxed whitespace-pre-line">{section.body}</p>
+                {section.quote && (
+                  <blockquote className="border-l-4 border-indigo-600 pl-6 py-2 my-6 not-italic text-lg md:text-xl font-semibold text-indigo-700">
+                    {section.quote}
+                  </blockquote>
+                )}
               </div>
             ))}
           </div>
         </AnimatedSection>
 
-        {article.tables.map((table, i) => (
+        {article.tables?.map((table, i) => (
           <AnimatedSection key={i}>
             <div className="my-8">
               {table.title && (
@@ -183,22 +192,24 @@ export default async function KennisbankArticlePage({
           </AnimatedSection>
         ))}
 
-        <AnimatedSection>
-          <div className="my-10 bg-slate-50 border border-slate-200 rounded-2xl p-6">
-            <h3 className="flex items-center gap-2 text-lg font-bold text-slate-900 mb-4" style={{ fontFamily: "var(--font-plus-jakarta-sans)" }}>
-              <CheckCircle2 size={20} className="text-indigo-600" />
-              {article.checklist.title}
-            </h3>
-            <ol className="space-y-2">
-              {article.checklist.items.map((item, i) => (
-                <li key={i} className="flex gap-3 text-slate-600 leading-relaxed">
-                  <span className="shrink-0 w-6 h-6 rounded-full bg-indigo-100 text-indigo-700 text-xs font-bold flex items-center justify-center">{i + 1}</span>
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ol>
-          </div>
-        </AnimatedSection>
+        {article.checklist && (
+          <AnimatedSection>
+            <div className="my-10 bg-slate-50 border border-slate-200 rounded-2xl p-6">
+              <h3 className="flex items-center gap-2 text-lg font-bold text-slate-900 mb-4" style={{ fontFamily: "var(--font-plus-jakarta-sans)" }}>
+                <CheckCircle2 size={20} className="text-indigo-600" />
+                {article.checklist.title}
+              </h3>
+              <ol className="space-y-2">
+                {article.checklist.items.map((item, i) => (
+                  <li key={i} className="flex gap-3 text-slate-600 leading-relaxed">
+                    <span className="shrink-0 w-6 h-6 rounded-full bg-indigo-100 text-indigo-700 text-xs font-bold flex items-center justify-center">{i + 1}</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          </AnimatedSection>
+        )}
 
         <AnimatedSection>
           <div className="my-10 bg-indigo-50 border border-indigo-100 rounded-2xl p-6">
@@ -210,12 +221,14 @@ export default async function KennisbankArticlePage({
           </div>
         </AnimatedSection>
 
-        <AnimatedSection>
-          <div className="my-10">
-            <h2 className="text-xl font-bold text-slate-900 mb-4" style={{ fontFamily: "var(--font-plus-jakarta-sans)" }}>Veelgestelde vragen</h2>
-            <FAQAccordion faqs={article.faqs} />
-          </div>
-        </AnimatedSection>
+        {article.faqs?.length ? (
+          <AnimatedSection>
+            <div className="my-10">
+              <h2 className="text-xl font-bold text-slate-900 mb-4" style={{ fontFamily: "var(--font-plus-jakarta-sans)" }}>Veelgestelde vragen</h2>
+              <FAQAccordion faqs={article.faqs} />
+            </div>
+          </AnimatedSection>
+        ) : null}
 
         <AnimatedSection>
           <div className="my-8 bg-indigo-50 border border-indigo-100 rounded-xl p-4">

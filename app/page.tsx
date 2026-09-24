@@ -214,6 +214,43 @@ export default function HomePage() {
         </div>
       </AnimatedSection>
 
+      {/* MANIFEST HIGHLIGHT */}
+      <AnimatedSection>
+        <section className="relative overflow-hidden py-20 px-4 bg-gradient-to-br from-indigo-600 via-violet-600 to-fuchsia-600">
+          <div
+            aria-hidden
+            className="absolute -top-24 -left-24 w-72 h-72 bg-white/10 rounded-full blur-3xl"
+          />
+          <div
+            aria-hidden
+            className="absolute -bottom-24 -right-24 w-96 h-96 bg-white/10 rounded-full blur-3xl"
+          />
+          <div className="max-w-4xl mx-auto relative text-center">
+            <h2
+              className="text-3xl md:text-5xl font-extrabold text-white tracking-tight mb-8 leading-tight"
+              style={{ fontFamily: "var(--font-plus-jakarta-sans)" }}
+            >
+              Wij kiezen niet eerst het materiaal. Wij kijken eerst naar het kind.
+            </h2>
+            <blockquote
+              cite="https://littleengineersacademy.com"
+              className="text-lg md:text-xl text-indigo-50 leading-relaxed mb-10 max-w-2xl mx-auto not-italic"
+            >
+              Een robot is geen doel — het is een middel. LEGO, Scratch, motoren,
+              sensoren: allemaal middelen. Het doel is de ontwikkeling van uw
+              kind. Daarom bouwt uw kind bij LEA niet zomaar een set na, maar
+              bedenkt, ontwerpt en creëert het zijn eigen werkende product.
+            </blockquote>
+            <Link
+              href="/kennisbank/waarom-lea-anders-is"
+              className="inline-flex items-center justify-center gap-2 bg-white text-indigo-700 font-bold px-8 py-4 rounded-xl text-lg hover:scale-[1.02] hover:shadow-xl transition-all"
+            >
+              Lees waarom LEA anders is →
+            </Link>
+          </div>
+        </section>
+      </AnimatedSection>
+
       {/* FOR WHOM — 4 target audience cards */}
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">

@@ -134,6 +134,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/kennisbank/waarom-lea-anders-is" className="hover:text-white transition-colors">
+                  Waarom LEA anders is
+                </Link>
+              </li>
+              <li>
                 <Link href="/kennisbank/welke-leeftijd-leren-programmeren" className="hover:text-white transition-colors">
                   Leren programmeren
                 </Link>

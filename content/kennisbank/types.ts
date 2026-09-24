@@ -40,7 +40,8 @@ export type ArticleSlug =
   | "schermvrij-leren-op-school"
   | "creativiteit-en-techniek-klas"
   | "workshops-koppelen-aan-lesstof"
-  | "wat-kost-schoolworkshop";
+  | "wat-kost-schoolworkshop"
+  | "waarom-lea-anders-is";
 
 export interface ArticleTable {
   title?: string;
@@ -56,6 +57,8 @@ export interface ArticleFAQ {
 export interface ArticleSection {
   heading: string;
   body: string;
+  /** Optional standout line, rendered as an emphasized blockquote below the body */
+  quote?: string;
 }
 
 export interface FurtherReadingLink {
@@ -76,17 +79,20 @@ export interface Article {
   /** 6-9 question-form H2 sections, 250-400 words each */
   content: ArticleSection[];
   /** At least 2 HTML tables */
-  tables: ArticleTable[];
+  tables?: ArticleTable[];
   /** Numbered list / checklist */
-  checklist: {
+  checklist?: {
     title: string;
     items: string[];
   };
   /** "Wat wij bij LEA zien" practical observation box, 150-200 words */
   observation: string;
   /** 5-6 FAQ entries, rendered with FAQPage schema */
-  faqs: ArticleFAQ[];
+  faqs?: ArticleFAQ[];
   relatedProgram: { href: string; label: string };
   /** Exactly 3 internal links to related kennisbank articles */
   furtherReading: FurtherReadingLink[];
+  /** Overrides the default JSON-LD dates (falls back to the site-wide default when omitted) */
+  datePublished?: string;
+  dateModified?: string;
 }

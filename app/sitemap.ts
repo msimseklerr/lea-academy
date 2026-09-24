@@ -105,6 +105,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "creativiteit-en-techniek-klas",
     "workshops-koppelen-aan-lesstof",
     "wat-kost-schoolworkshop",
+    "waarom-lea-anders-is",
   ];
 
   const article_pages = articles.map((slug) => ({
